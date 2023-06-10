@@ -6,13 +6,14 @@
 
 /* Main view setup */
 
-    {
-    /* padding: 0; */
-    margin: 4ew;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     background: #fff;
     color: #774b24;
 }
+
 
 body {
     font-family: Monserrat, sans-serif;
@@ -90,7 +91,7 @@ body {
 /* Title of the game */
 
 .title {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     font-size: 4rem;
     z-index: 2;
@@ -102,7 +103,7 @@ body {
     display: flex;
     width: 30vw;
     justify-content: space-evenly;
-    position: absolute;
+    /* position: absolute; */
     top: 70px;
     z-index: 1;
 }
