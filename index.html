@@ -1,15 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Cycle Of Life Game">
+    <meta name="keywords" content="online games, cycle of life, teen games, life games">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>The Cycle Of Life</title>
+    <title>The Cycle Of Life Game</title>
 </head>
-<body>
 
-    
+<body>
+    <section class="game">
+        <!--Title -->
+        <div class="title">The Cycle Of Life Game</div>
+
+        <!--Area displays player and computer scores -->
+        <div class="score">
+            <div class="playerScore">
+                <h2>Player</h2>
+                <p class="p-count count">0</p>
+
+            </div>
+            <div class="computerScore">
+                <h2>Computer</h2>
+                <p class="c-count count">0</p>
+
+            </div>
+        </div>
+
+        <div class="move">Make Your Choice</div>
+
+        <!--Number of moves left before end of game -->
+        <div class="movesleft">Choices Left: 10 </div>
+
+        <!--Available options to play game -->
+        <div class="options">
+            <button class="human">Human</button>
+            <button class="plant">Plant</button>
+            <button class="soil">Soil</button>
+        </div>
+
+        <!--Final result of game -->
+        <div class="result"></div>
+
+        <!--Reload the game -->
+        <button class="reload"></button>
+
+    </section>
+
+
     <script src="assets/js/script.js></script>
 </body>
 </html>
