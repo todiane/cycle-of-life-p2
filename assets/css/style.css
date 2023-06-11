@@ -8,90 +8,43 @@
 
 * {
     padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    /* margin: 0; */
+    /* box-sizing: border-box; */
     background: #fff;
-    color: #774b24;
+    color: #000;
 }
 
+p {
+    line-height: 1.5;
+}
 
 body {
     font-family: Monserrat, sans-serif;
     font-weight: 300;
     font-size: 18px;
-    color: #3a3a3a;
 
 }
 
-/* Logo area and navigation links */
-
-#logo {
-    float: left;
-    font-size: 200%;
-    margin-left: 30px;
-    color: #774b24;
-
-}
-
-#menu {
-    font-size: 110%;
-    letter-spacing: 2px;
-}
-
-#menu,
-#logo {
-    line-height: 8vh;
-
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #0000ff;
-    color: blue
-}
-
-.active {
-    border-bottom: 1px solid #0000ff;
-}
-
-.active {
-    border-bottom: 1px solid #0000ff;
-}
 
 /* To center everything in game */
 
 .game {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-    /* background-color: #E6ECF0;
-    box-sizing: border-box;
-    width: 85%;
-    height: 65vh;
-    max-height: 100vh;
-    max-width: 100vw;
+    /* display: flex;
+    flex-direction: column; */
+    background-color: #FAF0E6;
+    /* box-sizing: border-box; */
+    /* max-height: 85vh; */
+    max-width: 65%;
     margin-left: auto;
     margin-right: auto;
-    padding: 1%; */
+    padding: 2%;
+    margin-top: 3rem;
 }
 
 /* Title of the game */
 
 .title {
-    /* position: absolute; */
+    position: relative;
     top: 0;
     font-size: 4rem;
     z-index: 2;
@@ -103,9 +56,9 @@ body {
     display: flex;
     width: 30vw;
     justify-content: space-evenly;
-    /* position: absolute; */
-    top: 70px;
+    position: relative;
     z-index: 1;
+    justify-content: space-around;
 }
 
 /* Score  */
@@ -122,20 +75,23 @@ body {
 .options {
     display: flex;
     width: 50vw;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 2rem;
+
 }
 
 /* Styling on all three buttons */
 .human,
 .plant,
 .soil {
-    padding: 0.8rem;
-    width: 100px;
-    border-radius: 10px;
-    background: green;
+    padding: 1rem;
+    width: 150px;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    color: #000;
+    /* background: green; */
     outline: none;
-    border-color: green;
+    /* border-color: green; */
     border: none;
     cursor: pointer;
 }
@@ -143,6 +99,8 @@ body {
 .move {
     font-size: 2rem;
     font-weight: bold;
+    margin-top: 5rem;
+
 }
 
 /* Reload button style */
@@ -163,14 +121,6 @@ body {
 }
 
 
-/* Rules Page */
-.rules-photo {
-    max-width: 50%;
-    height: auto;
-    align-items: center;
-
-}
-
 /* Responsive Design */
 @media screen and (max-width: 612px) {
     .title {
@@ -186,3 +136,4 @@ body {
     .options {
         width: 100vw;
     }
+}
