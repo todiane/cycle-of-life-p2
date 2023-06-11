@@ -8,15 +8,22 @@
 
 * {
     padding: 0;
-    /* margin: 0; */
-    /* box-sizing: border-box; */
     background: #fff;
     color: #000;
 }
 
-p {
-    line-height: 1.5;
+#game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+
 }
+
+/* p {
+    line-height: 1.5;
+} */
 
 body {
     font-family: Monserrat, sans-serif;
@@ -47,7 +54,6 @@ body {
     position: relative;
     top: 0;
     font-size: 4rem;
-    z-index: 2;
 }
 
 /* Score Board */
@@ -57,17 +63,25 @@ body {
     width: 30vw;
     justify-content: space-evenly;
     position: relative;
-    z-index: 1;
-    justify-content: space-around;
+
 }
 
 /* Score  */
 
 .p-count,
 .c-count {
+
     text-align: center;
     font-size: 1.5rem;
     margin-top: 1rem;
+}
+
+/* Read The Rules */
+.rules-photo {
+
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
 }
 
 /* displaying three images in one line */
@@ -75,7 +89,7 @@ body {
 .options {
     display: flex;
     width: 50vw;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 2rem;
 
 }
@@ -99,8 +113,7 @@ body {
 .move {
     font-size: 2rem;
     font-weight: bold;
-    margin-top: 5rem;
-
+    margin-top: 4rem;
 }
 
 /* Reload button style */
