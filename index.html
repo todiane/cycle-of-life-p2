@@ -13,67 +13,17 @@
 
 <body>
 
-
-    <section id="game">
-        <!--Title -->
-        <div class="title">The Cycle Of Life Game</div>
-
-        <!--Area displays player and computer scores -->
-
-        <div class="score">
-            <div class="playerScore">
-                <h2>Player :  </h2>
-                <p span id="play-count">0</p></span>
-
-            </div>
-            <div class="computerScore">
-                <h2>Computer :  </h2>
-                <p span id="comp-count">0</p></span>
-
-            </div>
-            <div class="resultScore">
-                <h2>Result :  </h2>
-                <p span id="result-count">0</p></span>
-
-            </div>
-        </div>
-
-        <!--Messages to be shown -->
-        <div id="messages"></div>
-
-        <!--Make Your Choice title -->
-        <div class="move">Make Your Choice</div>
-
-        <!--Number of choices left before end of game -->
-        <div class="movesleft">Choices Left: 10 </div>
-
-        <!--Available options to play game -->
-        <section id="start">
-            <div class="options">
-                <button aria-label="human" class="h-option">Human <img src="assets/images/human-button.png" alt="human button image"></button>
-                <button aria-label="plant" class="p-option">Plant <img src="assets/images/plant-button.png" alt="plant button image"></button>
-                <button aria-label="soil" class="s-option">Soil <img src="assets/images/soil-button.png" alt="soil button image"> </button>
-            </div>
-        </section>
-
-        <!--Final result of game -->
-        <div class="final-result"></div>
-
-        <!--Reload the game -->
-        <button class="reload"></button>
-
-        <!--Game Rules -->
-
-        <h2>
-            <a href="rules.html" target="_blank">
-                Read The Rules</a>
-        </h2>
-
-    </section>
+    <h2>Computer Choice : <span id="computer-choice"></span></h2>
+    <h2>Player Choice : <span id="player-choice"></span></h2>
+    <h2>Result : <span id="result"></span></h2>
 
 
+    <button id="human">human</button>
+    <button id="plant">plant</button>
+    <button id="soil">soil</button>
 
+    <script src="assets/js/script.js"></script>
 
-    <script src="assets/js/script.js></script>
 </body>
+
 </html>
