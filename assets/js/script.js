@@ -1,5 +1,6 @@
 //Script.js File
 
+//Global variables
 const playerChoiceDisplay = document.getElementById('player-choice');
 const computerChoiceDisplay = document.getElementById('computer-choice');
 const resultDisplay = document.getElementById('result');
@@ -8,13 +9,18 @@ let playerChoice;
 let computerChoice;
 let result;
 
+/* Event listeners for the three player choice options
+* Detail of functions to run when clicked
+*/
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     playerChoice = e.target.id;
     playerChoiceDisplay.innerHTML = playerChoice;
     generateComputerChoice();
     getResult();
+    movesleft();
 }));
 
+// Function for start of game
 function generateComputerChoice() {
     const randomNumber = Math.floor(Math.random() * possibleChoices.length);
     if (randomNumber === 1) {
@@ -28,6 +34,8 @@ function generateComputerChoice() {
     }
     computerChoiceDisplay.innerHTML = computerChoice;
 }
+
+// Main game function loop to decide winner
 
 function getResult() {
     if (computerChoice === playerChoice) {
@@ -55,47 +63,28 @@ function getResult() {
     resultDisplay.innerHTML = result;
 }
 
+// Moves Countdown function loop 
+playerOptions.forEach(option => {
+    option.addEventListener('click', function () {
+
+        const movesLeft = document.querySelector('.movesleft');
+        moves++;
+        movesLeft.innerText = `Moves Left: ${10 - moves}`;
 
 
+        const choiceNumber = Math.floor(Math.random() * 3);
+        const computerChoice = computerOptions[choiceNumber];
 
-// Global variables 
-// const game = () => {
-//     let playerScore = 0;
-//     let computerScore =  0;
-//     let movesleft = 0;
-//     let start = 0;
+        // Function to check who wins
+        winner(this.innerText, computerChoice);
 
- // Function to
-    // const playGame = () => {
-    //     const humanButton = document.getElementsByClassName(".human");
-    //     const plantButton = document.getElementsByClassName(".plant");
-    //     const soilButton = document.getElementsByClassName(".soil");
-    //     const playerOptions = [humanButton, plantButton, soilButton];
-    //     const computerOptions = ["human", "plant", "soil"];
-    // };
+        // Calling gameOver function after 10 moves
+        if (moves == 10) {
+            gameOver(playerOptions, movesLeft);
+        }
+    });
+});
+
+
 
 // Hides reload the game button until play begins
-
-/* Event listeners for the three player choice options
-* Detail of functions to run when clicked
-*/
-
-
-// Main game function loop 
-
-// Function for start of game
-
-
-
-// Main game function loop to decide winner
-
-
-
-
-// Function to run when game is over
-
-
-// Calling playGame function inside game
-
-
-// Calling the game function
