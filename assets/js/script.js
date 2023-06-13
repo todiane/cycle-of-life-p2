@@ -11,8 +11,8 @@ let result;
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     playerChoice = e.target.id;
     playerChoiceDisplay.innerHTML = playerChoice;
-
     generateComputerChoice();
+    getResult();
 }));
 
 function generateComputerChoice() {
@@ -27,36 +27,33 @@ function generateComputerChoice() {
         computerChoice = 'plant';
     }
     computerChoiceDisplay.innerHTML = computerChoice;
-
-    function getResult() {
-        if (computerChoice === playerChoice) {
-            result = 'Its a draw!';
-        }
-        if (computerChoice === 'human' && playerChoice === "plant") {
-            result = 'You lose!';
-        }
-        if (computerChoice === 'human' && playerChoice === "soil") {
-            result = 'You win!';
-        }
-
-        if (computerChoice === 'plant' && playerChoice === "human") {
-            result = 'You win!';
-        }
-        if (computerChoice === 'plant' && playerChoice === "soil") {
-            result = 'You lose!';
-        }
-        if (computerChoice === 'soil' && playerChoice === "plant") {
-            result = 'You win!';
-        }
-        if (computerChoice === 'soil' && playerChoice === "human") {
-            result = 'You lose!';
-        }
-        resultDisplay.innerHTML = result;
-
-    }
 }
 
+function getResult() {
+    if (computerChoice === playerChoice) {
+        result = 'Its a draw!';
+    }
+    if (computerChoice === 'human' && playerChoice === "plant") {
+        result = 'You lose!';
+    }
+    if (computerChoice === 'human' && playerChoice === "soil") {
+        result = 'You win!';
+    }
 
+    if (computerChoice === 'plant' && playerChoice === "human") {
+        result = 'You win!';
+    }
+    if (computerChoice === 'plant' && playerChoice === "soil") {
+        result = 'You lose!';
+    }
+    if (computerChoice === 'soil' && playerChoice === "plant") {
+        result = 'You win!';
+    }
+    if (computerChoice === 'soil' && playerChoice === "human") {
+        result = 'You lose!';
+    }
+    resultDisplay.innerHTML = result;
+}
 
 
 
