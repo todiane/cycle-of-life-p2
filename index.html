@@ -22,23 +22,24 @@
 
         <div class="score">
             <div class="playerScore">
-                <h2>Player</h2>
-                <p class="p-count">0</p>
+                <h2>Player :  </h2>
+                <p span id="play-count">0</p></span>
 
             </div>
             <div class="computerScore">
-                <h2>Computer</h2>
-                <p class="c-count">0</p>
+                <h2>Computer :  </h2>
+                <p span id="comp-count">0</p></span>
+
+            </div>
+            <div class="resultScore">
+                <h2>Result :  </h2>
+                <p span id="result-count">0</p></span>
 
             </div>
         </div>
 
-        <!--Game Rules -->
-
-        <h2>
-            <a href="rules.html" target="_blank">
-                Read The Rules</a>
-        </h2>
+        <!--Messages to be shown -->
+        <div id="messages"></div>
 
         <!--Make Your Choice title -->
         <div class="move">Make Your Choice</div>
@@ -47,21 +48,26 @@
         <div class="movesleft">Choices Left: 10 </div>
 
         <!--Available options to play game -->
-    <section id="start">
-        <div class="options">
-            <button class="human">Human <img src="assets/images/human-button.png" alt="human button image"></button>
-            <button class="plant">Plant <img src="assets/images/plant-button.png" alt="plant button image"></button>
-            <button class="soil">Soil
-                <img src="assets/images/soil-button.png" alt="soil button image"> </button>
-
-        </div>
-    </section>
+        <section id="start">
+            <div class="options">
+                <button aria-label="human" class="h-option">Human <img src="assets/images/human-button.png" alt="human button image"></button>
+                <button aria-label="plant" class="p-option">Plant <img src="assets/images/plant-button.png" alt="plant button image"></button>
+                <button aria-label="soil" class="s-option">Soil <img src="assets/images/soil-button.png" alt="soil button image"> </button>
+            </div>
+        </section>
 
         <!--Final result of game -->
-        <div class="result"></div>
+        <div class="final-result"></div>
 
         <!--Reload the game -->
         <button class="reload"></button>
+
+        <!--Game Rules -->
+
+        <h2>
+            <a href="rules.html" target="_blank">
+                Read The Rules</a>
+        </h2>
 
     </section>
 
