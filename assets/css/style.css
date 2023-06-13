@@ -54,6 +54,7 @@ body {
     top: 0;
     font-size: 4rem;
     color: #49701f;
+    text-align: center;
 }
 
 /* Player, Computer, Result Score Board */
@@ -62,29 +63,6 @@ body {
     width: 60vw;
     justify-content: space-evenly;
     position: relative;
-}
-
-.move {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-top: 4rem;
-    color: #774b24;
-}
-
-.rules {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-top: 4rem;
-    color: #774b24;
-}
-/* displaying three images in one line */
-
-.options {
-    display: flex;
-    width: 60vw;
-    justify-content: space-evenly;
-    margin-top: 2rem;
-
 }
 
 /* Styling on all three buttons */
@@ -100,3 +78,54 @@ body {
     border: none;
     cursor: pointer;
 }
+
+.move {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 4rem;
+    color: #774b24;
+    text-align: center;
+}
+
+.movesleft {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.rules {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 4rem;
+    color: #774b24;
+}
+
+/* displaying three images in one line */
+
+.options {
+    display: flex;
+    width: 60vw;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+
+}
+
+
+/* Reload button style */
+.reload {
+    display: none;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: green;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+/* Responsive Design */
+/* @media  */
