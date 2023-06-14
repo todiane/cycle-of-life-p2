@@ -29,16 +29,19 @@
         <p div class="movesleft">Choices Left: 10 </div>
 
         <div class="options">
-            <button id="human"><img src="assets/images/human-button.png" alt="human button image">human</button>
-            <button id="plant"><img src="assets/images/plant-button.png" alt="plant button image">plant</button>
-            <button id="soil"><img src="assets/images/soil-button.png" alt="soil button image">soil</button>
+            <button aria-label="human" id="human"><img src="assets/images/human-button.png"
+                    alt="human button image">human</button>
+            <button id="plant"><img data-value="plant" src="assets/images/plant-button.png"
+                    alt="plant button image">plant</button>
+            <button id="soil"><img data-value="soil" src="assets/images/soil-button.png"
+                    alt="soil button image">soil</button>
         </div>
 
         <!--Rules Of The Game -->
         <!--Emojis found at https://unicode.org/emoji/charts/full-emoji-list.html and seedling emoji https://emojipedia.org/seedling/ -->
         <div class="rules">Rules Of The Game</div>
         <h3 div>Plant grows in soil (plant beats soil) 🌱 | Human eats plant (human beats plant) &#x1F60B | Soil
-            decomposes human (soil beats human) &#x1F974 </div>
+            decomposes human (soil beats human) &#x1F974 |</div>
         </h3>
 
         <!--Final result of game -->

@@ -10,8 +10,7 @@ let computerChoice;
 let result;
 
 /* Event listeners for the three player choice options
-* Detail of functions to run when clicked
-*/
+* Detail of functions to run when clicked*/
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     playerChoice = e.target.id;
     playerChoiceDisplay.innerHTML = playerChoice;
@@ -34,8 +33,7 @@ function generateComputerChoice() {
     computerChoiceDisplay.innerHTML = computerChoice;
 }
 
-// Main game function loop to decide winner
-
+// Main game function to decide winner
 function getResult() {
     if (computerChoice === playerChoice) {
         result = 'Its a draw!';
