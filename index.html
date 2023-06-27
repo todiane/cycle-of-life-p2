@@ -12,45 +12,54 @@
 </head>
 
 <body>
-    <section class="game">
-        <!--Title -->
-        <div class="title">The Cycle Of Life Game</div>
-
-
-        <!--Area displays player and computer scores -->
-        <div class="score">
-            <h2>Computer Choice: <p span id="computer-choice"></span></h2>
-            <h2>Player Choice: <p span id="player-choice"></span></h2>
-            <h2>Result: <p span id="result"></span></h2>
-        </div>
-        <!--Make Your Choice title -->
-        <div class="move">Make Your Choice</div>
-        <!--Number of choices left before end of game -->
-        <p div class="movesleft">Choices Left: 10 </div>
-
-        <div class="options">
-            <button aria-label="human" id="human"><img src="assets/images/human-button.png"
-                    alt="human button image">human</button>
-            <button id="plant"><img data-value="plant" src="assets/images/plant-button.png"
-                    alt="plant button image">plant</button>
-            <button id="soil"><img data-value="soil" src="assets/images/soil-button.png"
-                    alt="soil button image">soil</button>
+    <main class="game">
+        <h1>The Cycle Of Life Game</h1>
+        <h4 class="rulePoint">First Player To Score 7 Wins</h4>
+        <div class="score" id="recordScore">
+            <div class="userSection">
+                <h2 class="user" id="userScore">0</h2>
+                <h4>Player</h4>
+            </div>
+            <div class="comSection">
+                <h2 class="com" id="comScore">0</h2>
+                <h4>Computer</h4>
+            </div>
         </div>
 
-        <!--Rules Of The Game -->
-        <!--Emojis found at https://unicode.org/emoji/charts/full-emoji-list.html and seedling emoji https://emojipedia.org/seedling/ -->
-        <div class="rules">Rules Of The Game</div>
-        <h3 div>Plant grows in soil (plant beats soil) 🌱 | Human eats plant (human beats plant) &#x1F60B | Soil
-            decomposes human (soil beats human) &#x1F974 |</div>
+        <p id="commentText"></p>
+        <section class="choice">
+
+            <div class="choiceImg" id="human">
+                <img src="assets/images/human-button.png" alt="cycle of life game human button" srcset=""
+                    id="imgchoice" />
+                <h3>Human</h3>
+            </div>
+            <div class="choiceImg" id="plant">
+                <img src="assets/images/plant-button.png" alt="cycle of life fame plant button" srcset=""
+                    id="imgchoice" />
+                <h3>Plant</h3>
+            </div>
+            <div class="choiceImg" id="soil">
+                <img src="assets/images/soil-button.png" alt="cycle of life game soil button" srcset=""
+                    id="imgchoice" />
+                <h3>Soil</h3>
+
+            </div>
+        </section>
+
+        <div class="word">
+            <h2>Make your choice from the above options</h2>
+
+            <!--Rules Of The Game -->
+            <!--Emojis found at https://unicode.org/emoji/charts/full-emoji-list.html and seedling emoji https://emojipedia.org/seedling/ -->
+            <div class="rules">Rules Of The Game</div>
+            <h3 div>Plant grows in soil (plant beats soil) 🌱 | Human eats plant (human beats plant) &#x1F60B | Soil
+                decomposes human (soil beats human) &#x1F974 |
+        </div>
         </h3>
 
-        <!--Final result of game -->
-        <div class="result"></div>
-
-        <!--Reload the game -->
-        <button class="reload"></button>
-    </section>
-
+        </div>
+    </main>
     <script src="assets/js/script.js"></script>
 
 </body>
