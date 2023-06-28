@@ -21,7 +21,7 @@ main {
 }
 
 body {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     height: 100%;
     padding-bottom: 1rem;
 }
