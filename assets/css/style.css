@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap");
 
+/* Style css */
 
 /* global css */
 * {
@@ -30,23 +31,6 @@ h3 {
     margin: 0.6rem;
 }
 
-/* p {
-    line-height: 1rem;
-    letter-spacing: 0.04rem;
-    word-wrap: break-word;
-    text-indent: 0.7rem;
-} */
-
-/* ol {
-    line-height: 2.5rem;
-} */
-
-/* ul {
-    width: 60%;
-    margin-left: 1rem;
-} */
-
-
 /* Thank You Page */
 .action {
     display: flex;
@@ -60,22 +44,13 @@ h3 {
     margin: 0.5rem;
 }
 
-/*Images on winner, loser and thank you page???? */
+/*Images on winner, loser and thank you page */
 
-/* #img {
+#img {
     width: 12vw;
     height: 12vh;
     margin: 0 auto;
-
- /* .computerImage {
-    width: 40%;
-    text-align: center;
-    margin: 0 auto;
-} */
-
-/* .word {
-    font-size: 0.7rem;
-} */
+}
 
 /*Buttons on winner, loser and thank you page */
 
@@ -198,22 +173,7 @@ h4 {
     color: rgb(10, 167, 10);
 }
 
-.actionExit {
-    width: 50%;
-    margin-top: 10px;
-}
-
-.actionExit button {
-    border: none;
-    border-radius: 18px;
-    background-color: rgb(230, 74, 27);
-    color: white;
-    width: 100%;
-    font-size: 1.4rem;
-    font-weight: bold;
-}
-
-/* CSS For Additionalwinner.HTML */
+/* CSS For Additional Pages */
 .winner {
     width: 80%;
     margin: 0 auto;
@@ -233,9 +193,9 @@ h4 {
         width: 70%;
     }
 
-    .bigText {
+    /* .bigText {
         font-size: 1.5rem;
-    }
+    } */
 }
 
 @media (min-width: 524px) {
@@ -256,9 +216,9 @@ h4 {
         margin-left: 20px;
     }
 
-    .word {
+    /* .word {
         font-size: 0.8rem;
-    }
+    } */
 
     .comSection,
     .userSection {
@@ -273,13 +233,13 @@ h4 {
         width: 100%;
     }
 
-    .action button,
+    /* .action button,
     .actionExit button {
         margin: 0 auto;
         width: 100%;
         font-size: 1.4rem;
         margin-right: 40px;
-    }
+    } */
 
     .winner h3 {
         font-size: 1.4rem;
@@ -325,10 +285,10 @@ h4 {
         font-size: 1.35rem;
     }
 
-    .action button,
+    /* .action button,
     .actionExit button {
         font-size: 1.6rem;
-    }
+    } */
 
     .winner h3,
     .mediumText {
@@ -339,12 +299,12 @@ h4 {
         font-size: 2.3rem;
     }
 
-    .bigText {
+    /* .bigText {
         font-size: 2.3rem;
-    }
+    } */
 
     #img {
         height: 240px;
-        width: 240px;
+        width: 270px;
     }
 }
