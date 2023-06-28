@@ -16,6 +16,7 @@ main {
     justify-content: center;
     align-items: center;
     font-family: "Roboto", sans-serif;
+    
 }
 
 body {
@@ -87,6 +88,7 @@ h3 {
 .game {
     margin: 0 auto;
     padding-bottom: 0px;
+
 }
 
 .game h1 {
@@ -157,9 +159,9 @@ h4 {
     cursor: pointer;
 }
 
-.choiceImg:active {
+/* .choiceImg:active {
     box-shadow: 1px 2px 2px 7px rgb(218, 163, 163);
-}
+} */
 
 .choiceImg h3 {
     width: 40%;
