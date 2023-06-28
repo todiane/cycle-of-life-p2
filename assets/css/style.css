@@ -1,12 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap");
 
-#logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
-}
 
-/* navigation links */
+
+/* navigation links TO BE REMOVED */
 
 #menu {
     font-size: 110%;
@@ -37,27 +33,17 @@
     border-bottom: 1px solid #3a3a3a;
 }
 
-:root {
-    --mainGreen: green;
-    --mainRed: rgb(230, 74, 27);
-    --secondaryText: white;
-}
+/* navigation links TO BE REMOVED */
 
-*,
-body,
-html {
-    max-width: 100%;
+/* global css */
+* {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    border: 0;
 }
 
 main {
-    max-width: 840px;
-    margin: 0 auto;
-    margin-top: 10px;
-    padding: 0 40px;
-
+    max-width: 48rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,22 +64,24 @@ h3 {
     margin: 0.6rem;
 }
 
-p {
+/* p {
     line-height: 1rem;
     letter-spacing: 0.04rem;
     word-wrap: break-word;
     text-indent: 0.7rem;
-}
+} */
 
-ol {
+/* ol {
     line-height: 2.5rem;
-}
+} */
 
-ul {
+/* ul {
     width: 60%;
     margin-left: 1rem;
-}
+} */
 
+
+/* Thank You Page */
 .action {
     display: flex;
     flex-direction: column;
@@ -106,29 +94,31 @@ ul {
     margin: 0.5rem;
 }
 
+/*Images on winner, loser and thank you page???? */
+
 #img {
-    width: 1vw;
-    height: 1vh;
+    width: 2vw;
+    height: 2vh;
     margin: 0 auto;
 }
 
-.computerImage {
+/* .computerImage {
     width: 40%;
     text-align: center;
     margin: 0 auto;
-}
+} */
 
-.word {
+/* .word {
     font-size: 0.7rem;
-}
+} */
+
+/*Buttons on winner, loser and thank you page */
 
 .btn:hover {
     background-color: green;
 }
 
-/* Scaared.HTML */
-
-.scared {
+Scaared.HTML .scared {
     margin-top: 25%;
 }
 
@@ -185,7 +175,7 @@ ul {
 }
 
 .game h4 {
-    margin-top: 1.5rem;
+    margin-top: 3.5rem;
 }
 
 .userSection,
