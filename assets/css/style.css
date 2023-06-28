@@ -96,56 +96,24 @@ h3 {
 
 /*Images on winner, loser and thank you page???? */
 
-#img {
-    width: 2vw;
-    height: 2vh;
+/* #img {
+    width: 12vw;
+    height: 12vh;
     margin: 0 auto;
 }
+/*Loser Page */
 
-/* .computerImage {
+ .computerImage {
     width: 40%;
     text-align: center;
     margin: 0 auto;
-} */
+}
 
 /* .word {
     font-size: 0.7rem;
 } */
 
 /*Buttons on winner, loser and thank you page */
-
-.btn:hover {
-    background-color: green;
-}
-
-Scaared.HTML .scared {
-    margin-top: 25%;
-}
-
-/* Exit.HTML */
-
-.exit {
-    color: var(--secondaryText);
-    margin-top: 35%;
-}
-
-/* Utilities */
-.bigText {
-    font-size: 1.5rem;
-    margin-bottom: 0.8rem;
-    color: rgb(233, 105, 55);
-}
-
-.mediumText {
-    margin: 0.8rem;
-    font-size: 1.2rem;
-}
-
-.smallText {
-    font-size: 1rem;
-    text-align: center;
-    line-height: 1.5rem;
-}
 
 .btn {
     width: 80px;
@@ -159,11 +127,20 @@ Scaared.HTML .scared {
     color: var(--mainGreen);
 }
 
-.red {
-    color: var(--mainRed);
+.btn:hover {
+    background-color: green;
 }
 
-/* notSarced.html */
+
+/* Utilities */
+
+.smallText {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+/* Game Area */
 
 .game {
     margin: 0 auto;
