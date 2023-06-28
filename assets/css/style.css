@@ -47,15 +47,14 @@ h3 {
 /*Images on winner, loser and thank you page */
 
 #img {
-    width: 12vw;
-    height: 12vh;
-    margin: 0 auto;
+    height: 200px;
+    width: 250px;
 }
 
 /*Buttons on winner, loser and thank you page */
 
 .btn {
-    width: 80px;
+    width: 180px;
     padding: 0.8em;
     border: 2px solid none;
     border-radius: 5px;
@@ -68,6 +67,10 @@ h3 {
 
 .btn:hover {
     background-color: green;
+}
+
+.action button {
+    font-size: 1.6rem;
 }
 
 
@@ -87,8 +90,10 @@ h3 {
 }
 
 .game h1 {
+    font-size: 3rem;
     margin-bottom: -3%;
 }
+
 
 .game h4 {
     margin-top: 3.5rem;
@@ -97,6 +102,7 @@ h3 {
 .userSection,
 .comSection {
     margin-top: -13px;
+    font-size: 1.7rem;
 }
 
 .userSection>h2,
@@ -159,6 +165,8 @@ h4 {
     width: 40%;
     margin-left: 2em;
     text-align: left;
+    font-size: 1.5rem;
+    margin-right: 10px;
 }
 
 #imgchoice {
@@ -168,10 +176,15 @@ h4 {
 
 #commentText {
     margin: 0 auto;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     text-align: center;
     color: rgb(10, 167, 10);
 }
+
+.rulePoint {
+    font-size: 1.35rem;
+}
+
 
 /* CSS For Additional Pages */
 .winner {
@@ -193,19 +206,19 @@ h4 {
         width: 70%;
     }
 
-    /* .bigText {
+    .bigText {
         font-size: 1.5rem;
-    } */
+    }
 }
 
-@media (min-width: 524px) {
+@media (min-width: 624px) {
     .action {
         margin-top: 20px;
         flex-direction: row;
     }
 }
 
-@media (min-width: 624px) {
+@media (min-width: 824px) {
     .choice {
         flex-direction: row;
         justify-content: center;
@@ -215,10 +228,6 @@ h4 {
     .choiceImg {
         margin-left: 20px;
     }
-
-    /* .word {
-        font-size: 0.8rem;
-    } */
 
     .comSection,
     .userSection {
@@ -233,13 +242,12 @@ h4 {
         width: 100%;
     }
 
-    /* .action button,
-    .actionExit button {
+    .action button {
         margin: 0 auto;
         width: 100%;
         font-size: 1.4rem;
         margin-right: 40px;
-    } */
+    }
 
     .winner h3 {
         font-size: 1.4rem;
@@ -251,60 +259,5 @@ h4 {
 
     .mediumText {
         font-size: 1.4rem;
-    }
-}
-
-@media (min-width: 1023px) {
-    .game h1 {
-        font-size: 3rem;
-    }
-
-    .choice {
-        width: 100%;
-    }
-
-    #commentText {
-        font-size: 1.5rem;
-    }
-
-    .choiceImg h3 {
-        font-size: 1.5rem;
-        margin-right: 10px;
-    }
-
-    .word {
-        font-size: 1.3rem;
-    }
-
-    .comSection,
-    .userSection {
-        font-size: 1.7rem;
-    }
-
-    .rulePoint {
-        font-size: 1.35rem;
-    }
-
-    /* .action button,
-    .actionExit button {
-        font-size: 1.6rem;
-    } */
-
-    .winner h3,
-    .mediumText {
-        font-size: 1.4rem;
-    }
-
-    #winText {
-        font-size: 2.3rem;
-    }
-
-    /* .bigText {
-        font-size: 2.3rem;
-    } */
-
-    #img {
-        height: 240px;
-        width: 270px;
     }
 }
