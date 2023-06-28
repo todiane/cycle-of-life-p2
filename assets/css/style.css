@@ -1,40 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap");
 
 
-
-/* navigation links TO BE REMOVED */
-
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-}
-
-#menu,
-#logo {
-    line-height: 75px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-/* navigation links TO BE REMOVED */
-
 /* global css */
 * {
     padding: 0;
@@ -100,14 +66,12 @@ h3 {
     width: 12vw;
     height: 12vh;
     margin: 0 auto;
-}
-/*Loser Page */
 
- .computerImage {
+ /* .computerImage {
     width: 40%;
     text-align: center;
     margin: 0 auto;
-}
+} */
 
 /* .word {
     font-size: 0.7rem;
@@ -249,7 +213,7 @@ h4 {
     font-weight: bold;
 }
 
-/* winner.HTML */
+/* CSS For Additionalwinner.HTML */
 .winner {
     width: 80%;
     margin: 0 auto;
@@ -380,7 +344,7 @@ h4 {
     }
 
     #img {
-        height: 140px;
-        width: 140px;
+        height: 240px;
+        width: 240px;
     }
 }
