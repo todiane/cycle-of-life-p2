@@ -1,13 +1,9 @@
-// A scissor, Rock And Paper Game
-// 1 - Soil
-// 2 - Human
-// 3 - Plant
-
+// A Human, Plant and Soil Game
 // 1 - Human
 // 2 - Plant
 // 3 - Soil
 
-// Variables
+// Global Variables
 let comChoice = 0;
 let comOutput = "";
 let comWin = "";
@@ -18,7 +14,7 @@ let playerCount = 0;
 let comCount = 0;
 let userInput = "";
 
-// Variables ref to HTML
+// Variables 
 const human = document.getElementById("human");
 const plant = document.getElementById("plant");
 const soil = document.getElementById("soil");
@@ -31,6 +27,17 @@ const winComment = document.getElementById("winText");
 human.addEventListener("click", humanChoice);
 plant.addEventListener("click", plantChoice);
 soil.addEventListener("click", soilChoice);
+
+// Event Listener Function
+function humanChoice() {
+    game("human");
+}
+function plantChoice() {
+    game("plant");
+}
+function soilChoice() {
+    game("soil");
+}
 
 //Computer Choice
 function computerPlay() {
@@ -49,35 +56,36 @@ function playRound(userInput, computerSelection) {
     // Resetter to default False
     playWinCheck = false;
     comWinCheck = false;
-    //The Game Play
+
+    //Playing The Game - choices
     let playerOut = userInput;
     let comOut = computerSelection;
     if (comOut === "soil" && playerOut === "human") {
         playWin = "You Lose! Soil Decomposses Human";
         playWinCheck = true;
         return playWin;
-    } else if (comOut === "soil" && playerOut === "plant") {
+    } if (comOut === "soil" && playerOut === "plant") {
         comWin = "You Win! Plant Grows In Soil";
         comWinCheck = true;
         return comWin;
-    } else if (comOut === "human" && playerOut === "plant") {
+    } if (comOut === "human" && playerOut === "plant") {
         playWin = "You Lose! Human eats Plant";
         playWinCheck = true;
         return playWin;
-    } else if (comOut === "human" && playerOut === "soil") {
+    } if (comOut === "human" && playerOut === "soil") {
         comWin = "You Win! Soil Decomposses Human";
         comWinCheck = true;
         return comWin;
-    } else if (comOut === "plant" && playerOut === "human") {
+    } if (comOut === "plant" && playerOut === "human") {
         comWin = "You Win! Human Eats Plant";
         comWinCheck = true;
         return comWin;
-    } else if (comOut === "plant" && playerOut === "soil") {
+    } if (comOut === "plant" && playerOut === "soil") {
         playWin = "You Lose! Plant Beats Soil";
         playWinCheck = true;
         return playWin;
-    } else if (comOut === playerOut) {
-        let bothEqual = "It's a tie";
+    } if (comOut == playerOut) {
+        let bothEqual = "It's a draw!";
         return bothEqual; //When equal
     }
 }
@@ -108,15 +116,4 @@ function game(userInput) {
             }
         }, 0);
     }
-}
-
-// Event Lisener Function
-function humanChoice() {
-    game("human");
-}
-function plantChoice() {
-    game("plant");
-}
-function soilChoice() {
-    game("soil");
 }
