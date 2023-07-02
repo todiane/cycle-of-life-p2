@@ -1,7 +1,8 @@
-// A Human, Plant and Soil Game
-// 1 - Human
-// 2 - Plant
-// 3 - Soil
+// JS SCRIPT for Human, Plant and Soil Game
+
+/*I made this game up and it is based on the rock, paper, scissors game - code inspired by Geeks for Geeks 
+https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/ 
+and https://youtu.be/RwFeg0cEZvQ */
 
 // Global Variables
 let comChoice = 0;
@@ -14,7 +15,7 @@ let playerCount = 0;
 let comCount = 0;
 let userInput = "";
 
-// Variables 
+// Local Variables/functions
 const human = document.getElementById("human");
 const plant = document.getElementById("plant");
 const soil = document.getElementById("soil");
@@ -23,7 +24,7 @@ const comScore = document.getElementById("comScore");
 const gameComment = document.getElementById("commentText");
 const winComment = document.getElementById("winText");
 
-// Event Listeners
+// Event Handling
 human.addEventListener("click", humanChoice);
 plant.addEventListener("click", plantChoice);
 soil.addEventListener("click", soilChoice);
@@ -57,7 +58,7 @@ function playRound(userInput, computerSelection) {
     playWinCheck = false;
     comWinCheck = false;
 
-    //Playing The Game - choices
+    //Playing The Game - Conditionals
     let playerOut = userInput;
     let comOut = computerSelection;
     if (comOut === "soil" && playerOut === "human") {
@@ -101,7 +102,7 @@ function game(userInput) {
         userScore.innerText = playerCount;
         comScore.innerText = comCount;
 
-        // Final Output
+        // Final Output Loops
         setTimeout(() => {
             if (playerCount === 7 || comCount === 7) {
                 if (playerCount > comCount) {
