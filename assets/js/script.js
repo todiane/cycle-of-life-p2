@@ -61,34 +61,29 @@ function playRound(userInput, computerSelection) {
     //Playing The Game - Conditionals
     let playerOut = userInput;
     let comOut = computerSelection;
-    if (comOut === "soil" && playerOut === "human") {
-        playWin = "You Lose! Soil Decomposses Human";
-        playWinCheck = true;
-        return playWin;
-    } if (comOut === "soil" && playerOut === "plant") {
-        comWin = "You Win! Plant Grows In Soil";
-        comWinCheck = true;
-        return comWin;
-    } if (comOut === "human" && playerOut === "plant") {
-        playWin = "You Lose! Human eats Plant";
-        playWinCheck = true;
-        return playWin;
-    } if (comOut === "human" && playerOut === "soil") {
-        comWin = "You Win! Soil Decomposses Human";
-        comWinCheck = true;
-        return comWin;
-    } if (comOut === "plant" && playerOut === "human") {
-        comWin = "You Win! Human Eats Plant";
-        comWinCheck = true;
-        return comWin;
-    } if (comOut === "plant" && playerOut === "soil") {
-        playWin = "You Lose! Plant Beats Soil";
-        playWinCheck = true;
-        return playWin;
-    } if (comOut == playerOut) {
-        let bothEqual = "It's a draw!";
-        return bothEqual; //When equal
+
+    const winOrder = {
+        "soil": "human",
+        "human": "plant",
+        "plant": "soil",
+    };
+    console.log();
+
+    if (playerOut == comOut) {
+        message = "You DREW! Player played: " + playerOut + ", Computer played: " + comOut;
+        return message;
     }
+
+
+    if (winOrder[playerOut] == comOut) {
+        playWin = "You WIN!! Player played: " + playerOut + ", Computer played: " + comOut;
+        playWinCheck = true;
+        return playWin;
+    }
+
+    message = "You LOST!! Player played: " + playerOut + ", Computer played: " + comOut;
+    comWinCheck = true;
+    return message;
 }
 // Input Level
 function game(userInput) {
