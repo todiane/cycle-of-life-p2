@@ -6,16 +6,16 @@ The Cycle Of Life Game is a game created in the style of rock, paper, scissors. 
 
 The deployed site can be found here <https://todiane.github.io/cycle-of-life-p2/>
 
- # Table of contents
+# Table of contents
 
 - [Features](#features)
-   - [Header](#header)
-   - [Game Area](#game-area)
-   - [Instructions](#instructions)
-   - [Footer Area](#footer-area)
+
+  - [Header](#header)
+  - [Game Area](#game-area)
+  - [Instructions](#instructions)
+  - [Footer Area](#footer-area)
 
 - [Website Pages](#website-pages)
-   
 - [Testing](#testing)
 
 - [Validator Testing](#validator-testing)
@@ -30,8 +30,7 @@ The deployed site can be found here <https://todiane.github.io/cycle-of-life-p2/
 
 - [Credits](#credits)
 
-- [Acknowledgments](#acknowledgments)
-
+- [Acknowledgements](#acknowledgements)
 
 ## Features
 
@@ -46,6 +45,10 @@ The header shows the name of the game and provides information on how to win the
 ![Image of game area](assets/images/cyclelife-gamearea.webp)
 
 The game area shows the score of the player and the computer and underneath that area is the game selection area where a player can select either Human, Plant or Soil. Instructions are provided on how to start the game so the player understands that the game only starts once they have made their first selection.
+
+Once a selection has been made the player is informed of the winner and the selection the computer made.
+
+![Image of results](assets/images/cyclelife-result.webp)
 
 ### **Instructions**
 
@@ -128,7 +131,6 @@ The technologies used to create this game include
 - GitHub
 - Canva to create images
 - Font Awesome
-
 
 ## **Unfixed Bugs**
 
