@@ -48,22 +48,22 @@ As well as the main game area, the following webpages are also deployed at the e
 ***Winner Page***
 This page displays if the player wins the game and provides an oportunity for them to play again or exit the game.
 
-![Image of full width header](assets/images/rm-sologamy-header.webp)XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+![Image of winner page](assets/images/cyclelife-winner.webp)
 
 
 ***Lose Page***
 
 This page displays if the player loses the game and provides an oportunity for them to play again or exit the game.
 
-![Image of links to video and social media footer](assets/images/rm-success.webp)XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+![Image of you lose page](assets/images/cyclelife-lose.webp)
 
 ***Thank You Page***
 
 This page displays if the player selects the NO button on either the winner or lose pages. It also provides a final opportunity to play the game again.
 
-![Image of links to video and social media footer](assets/images/rm-success.webp)XXXXXXXXXXXXXXXXXXXXXXXXX
+![Image of thanks page](assets/images/cyclelife-thanks.webp)
 
-### **Testing**
+## **Testing**
 
 The website has been tested to work in different browers including Chrome, Firefox and Edge.
 
@@ -73,27 +73,27 @@ All links to external pages in the social media footer have been checked.
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-### **Validator Testing**
+## **Validator Testing**
 
 ***HTML***
-No errors were found when the code was entered into the offical ![W3C Validator](assets/images/rm-w3c-validator.webp)
+No errors were found when the code was entered into the offical ![W3C Validator](assets/images/rm-w3c-validator.webp)xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ***CSS***
 No errors were found when the code was entered into the official Jigsaw validator
 
-![Image of CSS Jigsaw validator](assets/images/rm-w3c-css.webp/)
+![Image of CSS Jigsaw validator](assets/images/rm-w3c-css.webp/)xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ***Accessibility***
 
-The site was run through the DevTools Lighthouse section and deemed to be 100% for accessibility which confirms that the font and colors chosen are easy to read. A robots.txt file was added to allow crawling by the search engines.
+The site was run through the DevTools Lighthouse section and deemed to be xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-![Image of Lighthouse score](assets/images/rm-lighthouse-score.webp/)
+![Image of Lighthouse score](assets/images/rm-lighthouse-score.webp/)xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-### **Unfixed Bugs**
+## **Unfixed Bugs**
 
 No unfixed bugs to report.
 
-### **Deployment**
+## **Deployment**
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 
@@ -105,10 +105,12 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 The live link can be found here - <https://todiane.github.io/cycle-of-life-p2/>
 
-### **Credits**
+## **Credits**
 
 The Cycle of Life footer structure has been created using html and css code elements from the  Code Institute Love Running website. The Love Running three page website has been recreated for this project. <https://code-institute-org.github.io/love-running-2.0/index.html>
 
-Photos used in the game were created by me using Canva
+Photos used in the game and on all website pages were created by me using Canva
 
 Font awesome icons were used from <https://fontawesome.com>
+
+My mentor Andre Aquilina for his support with javascript throughout my project
