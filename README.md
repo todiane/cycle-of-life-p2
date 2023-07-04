@@ -63,13 +63,15 @@ This page displays if the player selects the NO button on either the winner or l
 
 ## **Testing**
 
-The website has been tested to work in different browers including Chrome, Firefox and Edge.
+- The website has been tested to work in different browers including Chrome, Firefox and Edge.
 
-The @media code has been added and tested to ensure the game keeps its structure at the lowest screen size of 320 x 480 px.
+- The @media code has been added and tested to ensure the game keeps its structure at the lowest screen size of 320 x 480 px.
 
-All links to external pages in the social media footer have been checked.
+- All links to external pages in the social media footer have been checked.
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+- I tested that all parts of the game work including the score area and game selection area plus the additonal webpages and their buttons.
+
+- I tested that the instructions were easy to understand.
 
 ## **Validator Testing**
 
@@ -95,6 +97,10 @@ The site was run through the DevTools Lighthouse section and deemed to be xxxxxx
 ## **Unfixed Bugs**
 
 No unfixed bugs to report.
+
+## **Features To Implement**
+
+When there is more time I would like to add additional items to the human, plant, soil options so there are at least five different options.
 
 ## **Deployment**
 
