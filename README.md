@@ -6,6 +6,41 @@ The Cycle Of Life Game is a game created in the style of rock, paper, scissors. 
 
 The deployed site can be found here <https://todiane.github.io/cycle-of-life-p2/>
 
+ # Table of contents
+
+- [Features](#features)
+   - [Header](#header)
+   - [Game Area](#game-area)
+   - [Instructions](#instructions)
+   - [Footer Area](#footer-area)
+
+- [Website Pages](#website-pages)
+   - [Winner Page](#winner-page)
+   - [Lose Page](#lose-page)
+   - [Thank You Page](#thank-you-page)
+   
+- [Testing](#testing)
+
+- [Validator Testing](#validator-testing)
+   - [Javascript](#javascript)
+   - [HTML](#html)
+   - [CSS](#css)
+   - [Accessibility](#accessibility)
+
+- [Technologies Used](#technologies-used)
+
+- [Unfixed Bugs](#unfixed-bugs)
+
+- [Additional Features](#additional-features)
+
+- [Deployment ](#deployment)
+
+- [Credits](#credits)
+  - [Content](#content)
+
+- [Acknowledgments](#acknowledgments)
+
+
 ## Features
 
 ### **Header**
@@ -59,6 +94,8 @@ This page displays if the player selects the NO button on either the winner or l
 
 - The @media code has been added and tested to ensure the game keeps its structure at the lowest screen size of 320 x 480 px.
 
+- The link from the game to the winner and loser pages has been tested along with the buttons on each page to ensure they go to the correct place.
+
 - All links to external pages in the social media footer have been checked.
 
 - I tested that all parts of the game work including the score area and game selection area plus the additonal webpages and their buttons.
@@ -88,13 +125,26 @@ The site was run through the DevTools Lighthouse section and given a 98% score f
 
 ![Image of Lighthouse score](assets/images/cyclelife-lighthouse.webp/)
 
+## **Technologies Used**
+
+The technologies used to create this game include
+
+- HTML5
+- CSS
+- Javascript
+- Codeanywhere
+- GitHub
+- Canva to create images
+- Font Awesome
+
+
 ## **Unfixed Bugs**
 
 No unfixed bugs to report.
 
-## **Features To Implement**
+## **Additional Features**
 
-When there is more time I would like to add additional items to the human, plant, soil options so there are at least five different options.
+When there is more time I would like to add additional features to the human, plant, soil options so there are at least five different options to choose from rather than three.
 
 ## **Deployment**
 
@@ -112,8 +162,12 @@ The live link can be found here - <https://todiane.github.io/cycle-of-life-p2/>
 
 The Cycle of Life footer structure has been created using html and css code elements from the Code Institute Love Running website. The Love Running three page website has been recreated for this project. <https://code-institute-org.github.io/love-running-2.0/index.html>
 
-Photos used in the game and on all website pages were created by me using Canva
+Photos used in the game and on all website pages were created by me using Canva.
 
 Font awesome icons were used from <https://fontawesome.com>
 
-My mentor Andre Aquilina for his support with javascript throughout my project
+## **Acknowledgements**
+
+My mentor Andre Aquilina for his support with javascript throughout my project.
+
+Members of Code Institute Slack group for their help and advice.
