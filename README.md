@@ -6,14 +6,6 @@ The Cycle Of Life Game is a game created in the style of rock, paper, scissors. 
 
 The deployed site can be found here <https://todiane.github.io/cycle-of-life-p2/>
 
-Project Aims to:
-
-- provide XXXXXXXXXXXXXXXXXXXXXXXXXinformation on the
-- outline bXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXenefits of
-- provide sociaXXXXXXXXXXXXXXXXXXXXXXXXXXXXl proof
-- set XXXXXXXXXXXXXXXXXXXXXXXup a working registrat
-- encourage aXXXXXXXXXXXXXXXXXXXXXnyone interested
-
 ## Features
 
 ### **Header**
@@ -77,18 +69,18 @@ This page displays if the player selects the NO button on either the winner or l
 
 **_Javascript_**
 
-The Javascript was run through JS Hint Javascript Validator -  https://jshint.com/
+The Javascript was run through JS Hint Javascript Validator - https://jshint.com/
 Two unused variables were detected and removed.
 
 **_HTML_**
 The HTML code was run through W3C Validator and found duplicate IDs for game images, id="imgChoice" on line 34 of index page. This was updated to include imgChoice1 and imgChoice2 plus the CSS file was updated to include the same image size instructions. There were also a couple of stray end divs to remove.
 Once completed no other errors were found when the code was entered into the validator
- ![W3C Validator](assets/images/cyclelife-htmlvalidate.webp)
+![W3C Validator](assets/images/cyclelife-htmlvalidate.webp)
 
 **_CSS_**
 No errors were found when the code was entered into the official CSS Jigsaw validator
 
-![Image of CSS Jigsaw validator](assets/images/circlelife-cssvalidate.webp/)
+![Image of CSS Jigsaw validator](assets/images/cyclelife-cssvalidate.webp/)
 
 **_Accessibility_**
 
