@@ -86,9 +86,9 @@ Once completed no other errors were found when the code was entered into the val
  ![W3C Validator](assets/images/cyclelife-htmlvalidate.webp)
 
 **_CSS_**
-No errors were found when the code was entered into the official Jigsaw validator
+No errors were found when the code was entered into the official CSS Jigsaw validator
 
-![Image of CSS Jigsaw validator](assets/images/rm-w3c-css.webp/)xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+![Image of CSS Jigsaw validator](assets/images/circlelife-cssvalidate.webp/)xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 **_Accessibility_**
 
