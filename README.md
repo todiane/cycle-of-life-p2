@@ -3,7 +3,7 @@
 The Cycle Of Life Game is a game created in the style of rock, paper, scissors. There are three options for the player to select - Human, Plant and Soil. The aim of the game is to select as many correct options as possible to beat the computer. A total of seven attempts are allowed before the game ends and decides the winner. The rules of the game are included on the index page and as well as winning or losing a player can also tie with the computer.
 
 
- to **embrace the idea of marriage by a person to themself** by providing information and support on the topic. The website targets anyone looking to learn more about sologamy. The website encourages those looking to create their own ceremony to register and become a member where additonal 
+![Image of complete page](assets/images/cyclelife.webp/)
 
 The deployed site can be found here <https://todiane.github.io/cycle-of-life-p2/>
 
@@ -15,31 +15,29 @@ Project Aims to:
 - set XXXXXXXXXXXXXXXXXXXXXXXup a working registrat
 - encourage aXXXXXXXXXXXXXXXXXXXXXnyone interested
 
-![Image of Register Page](assets/images/readme-img.webp/)XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
 ## Features
 
 ### **Header**
 
-![Image of full width header](assets/images/rm-sologamy-header.webp)XXXXXXXXXXXXXXXXXXXXXXXXXX
+![Image of game header](assets/images/cyclelife-header.webp)
 
 The header shows the name of the game and provides information on how to win the game.
 
 ### **Game Area**
 
-![Image of full width header](assets/images/rm-sologamy-header.webp)XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+![Image of game area](assets/images/cyclelife-gamearea.webp)
 
-The player area shows the score of the player and the computer and underneath that area is the game selection area where a player can select either Human, Plant or Soil. Instructions are provided on how to start the game so the player understands that the game only starts once they have made their first selection.
+The game area shows the score of the player and the computer and underneath that area is the game selection area where a player can select either Human, Plant or Soil. Instructions are provided on how to start the game so the player understands that the game only starts once they have made their first selection.
 
 ### **Instructions**
 
-![Image of full width header](assets/images/rm-sologamy-header.webp)XXXXXXXXXXXXXXXXXXXXXXX
+![Image of instructions area](assets/images/cyclelife-rules.webp)
 
-Under the game area are instructions on which element wins or loses against the other.
+Under the game area are instructions/rules on which element wins or loses against the other.
 
 ### **Footer Area**
 
-![Image of full width header](assets/images/rm-sologamy-header.webp)XXXXXXXXXXXXXXXXXXXXXXX
+![Image of footer area](assets/images/cyclelife-footer.webp)
 
 Under the game instructions area and outside of the main game area is the footer which includes links to social media networks.
 
