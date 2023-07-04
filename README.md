@@ -15,17 +15,10 @@ The deployed site can be found here <https://todiane.github.io/cycle-of-life-p2/
    - [Footer Area](#footer-area)
 
 - [Website Pages](#website-pages)
-   - [Winner Page](#winner-page)
-   - [Lose Page](#lose-page)
-   - [Thank You Page](#thank-you-page)
    
 - [Testing](#testing)
 
 - [Validator Testing](#validator-testing)
-   - [Javascript](#javascript)
-   - [HTML](#html)
-   - [CSS](#css)
-   - [Accessibility](#accessibility)
 
 - [Technologies Used](#technologies-used)
 
@@ -36,7 +29,6 @@ The deployed site can be found here <https://todiane.github.io/cycle-of-life-p2/
 - [Deployment ](#deployment)
 
 - [Credits](#credits)
-  - [Content](#content)
 
 - [Acknowledgments](#acknowledgments)
 
