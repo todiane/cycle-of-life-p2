@@ -2,16 +2,15 @@
 
 The Cycle Of Life Game is a game created in the style of rock, paper, scissors. There are three options for the player to select - Human, Plant and Soil. The aim of the game is to select as many correct options as possible to beat the computer. A total of seven attempts are allowed before the game ends and decides the winner. The rules of the game are included on the index page and as well as winning or losing a player can also tie with the computer.
 
-
 ![Image of complete page](assets/images/cyclelife.webp/)
 
 The deployed site can be found here <https://todiane.github.io/cycle-of-life-p2/>
 
 Project Aims to:
 
-- provide XXXXXXXXXXXXXXXXXXXXXXXXXinformation on the 
+- provide XXXXXXXXXXXXXXXXXXXXXXXXXinformation on the
 - outline bXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXenefits of
-- provide sociaXXXXXXXXXXXXXXXXXXXXXXXXXXXXl proof 
+- provide sociaXXXXXXXXXXXXXXXXXXXXXXXXXXXXl proof
 - set XXXXXXXXXXXXXXXXXXXXXXXup a working registrat
 - encourage aXXXXXXXXXXXXXXXXXXXXXnyone interested
 
@@ -45,21 +44,20 @@ Under the game instructions area and outside of the main game area is the footer
 
 As well as the main game area, the following webpages are also deployed at the end of the game
 
-***Winner Page***
-This page displays if the player wins the game and provides an oportunity for them to play again or exit the game.
+**_Winner Page_**
+This page displays if the player wins the game and provides an oportunity for them to play again or exit the game. The social media buttons are also present.
 
 ![Image of winner page](assets/images/cyclelife-winner.webp)
 
+**_Lose Page_**
 
-***Lose Page***
-
-This page displays if the player loses the game and provides an oportunity for them to play again or exit the game.
+This page displays if the player loses the game and provides an oportunity for them to play again or exit the game. The social media buttons are also present.
 
 ![Image of you lose page](assets/images/cyclelife-lose.webp)
 
-***Thank You Page***
+**_Thank You Page_**
 
-This page displays if the player selects the NO button on either the winner or lose pages. It also provides a final opportunity to play the game again.
+This page displays if the player selects the NO button on either the winner or lose pages. It also provides a final opportunity to play the game again. The social media buttons are also present.
 
 ![Image of thanks page](assets/images/cyclelife-thanks.webp)
 
@@ -75,15 +73,20 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 ## **Validator Testing**
 
-***HTML***
+**_Javascript_**
+
+The Javascript was run through JS Hint Javascript Validator -  https://jshint.com/
+Two unused variables were detected and removed.
+
+**_HTML_**
 No errors were found when the code was entered into the offical ![W3C Validator](assets/images/rm-w3c-validator.webp)xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-***CSS***
+**_CSS_**
 No errors were found when the code was entered into the official Jigsaw validator
 
 ![Image of CSS Jigsaw validator](assets/images/rm-w3c-css.webp/)xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-***Accessibility***
+**_Accessibility_**
 
 The site was run through the DevTools Lighthouse section and deemed to be xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -107,7 +110,7 @@ The live link can be found here - <https://todiane.github.io/cycle-of-life-p2/>
 
 ## **Credits**
 
-The Cycle of Life footer structure has been created using html and css code elements from the  Code Institute Love Running website. The Love Running three page website has been recreated for this project. <https://code-institute-org.github.io/love-running-2.0/index.html>
+The Cycle of Life footer structure has been created using html and css code elements from the Code Institute Love Running website. The Love Running three page website has been recreated for this project. <https://code-institute-org.github.io/love-running-2.0/index.html>
 
 Photos used in the game and on all website pages were created by me using Canva
 

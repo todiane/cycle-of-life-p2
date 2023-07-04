@@ -7,13 +7,11 @@ and https://youtu.be/RwFeg0cEZvQ */
 // Global Variables
 let comChoice = 0;
 let comOutput = "";
-let comWin = "";
 let playWin = "";
 let playWinCheck = false;
 let comWinCheck = false;
 let playerCount = 0;
 let comCount = 0;
-let userInput = "";
 
 // Local Variables/functions
 const human = document.getElementById("human");
@@ -21,8 +19,6 @@ const plant = document.getElementById("plant");
 const soil = document.getElementById("soil");
 const userScore = document.getElementById("userScore");
 const comScore = document.getElementById("comScore");
-const gameComment = document.getElementById("commentText");
-const winComment = document.getElementById("winText");
 
 // Event Handling
 human.addEventListener("click", humanChoice);
@@ -70,7 +66,7 @@ function playRound(userInput, computerSelection) {
     console.log();
 
     if (playerOut == comOut) {
-        message = "You DREW! Player played: " + playerOut + ", Computer played: " + comOut;
+        const message = "You DREW! Player played: " + playerOut + ", Computer played: " + comOut;
         return message;
     }
 
@@ -81,7 +77,7 @@ function playRound(userInput, computerSelection) {
         return playWin;
     }
 
-    message = "You LOST!! Player played: " + playerOut + ", Computer played: " + comOut;
+    const message = "You LOST!! Player played: " + playerOut + ", Computer played: " + comOut;
     comWinCheck = true;
     return message;
 }
@@ -90,7 +86,7 @@ function game(userInput) {
     if (playerCount !== 7 && comCount !== 7) {
         let computerSelection = computerPlay();
         let finaleOutput = playRound(userInput, computerSelection);
-        commentText.innerText = finaleOutput;
+        commentText.innerText = finaleOutput; // JS HINT SAYS THIS IS AN UNDEFINED VARIABLE - DO I NEED IT HERE? ASK ANDRE
         if (playWinCheck === true) playerCount++;
         else if (comWinCheck === true) comCount++;
 
