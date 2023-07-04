@@ -81,7 +81,9 @@ The Javascript was run through JS Hint Javascript Validator -  https://jshint.co
 Two unused variables were detected and removed.
 
 **_HTML_**
-No errors were found when the code was entered into the offical ![W3C Validator](assets/images/rm-w3c-validator.webp)xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The HTML code was run through W3C Validator and found duplicate IDs for game images, id="imgChoice" on line 34 of index page. This was updated to include imgChoice1 and imgChoice2 plus the CSS file was updated to include the same image size instructions. There were also a couple of stray end divs to remove.
+Once completed no other errors were found when the code was entered into the validator
+ ![W3C Validator](assets/images/cyclelife-htmlvalidate.webp)
 
 **_CSS_**
 No errors were found when the code was entered into the official Jigsaw validator
