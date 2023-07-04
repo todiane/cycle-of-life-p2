@@ -88,13 +88,13 @@ Once completed no other errors were found when the code was entered into the val
 **_CSS_**
 No errors were found when the code was entered into the official CSS Jigsaw validator
 
-![Image of CSS Jigsaw validator](assets/images/circlelife-cssvalidate.webp/)xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+![Image of CSS Jigsaw validator](assets/images/circlelife-cssvalidate.webp/)
 
 **_Accessibility_**
 
-The site was run through the DevTools Lighthouse section and deemed to be xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+The site was run through the DevTools Lighthouse section and given a 98% score for accessibility.
 
-![Image of Lighthouse score](assets/images/rm-lighthouse-score.webp/)xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+![Image of Lighthouse score](assets/images/cyclelife-lighthouse.webp/)
 
 ## **Unfixed Bugs**
 
