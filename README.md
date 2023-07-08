@@ -139,6 +139,7 @@ No unfixed bugs to report.
 ## **Additional Features**
 
 When there is more time I would like to add additional features to the human, plant, soil options so there are at least five different options to choose from rather than three.
+There is also an opportunity to have the winner and loser results appear on the index page, rather than on separate pages.
 
 ## **Deployment**
 
