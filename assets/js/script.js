@@ -99,11 +99,11 @@ function game(userInput) {
                 if (playerCount > comCount) {
                     setTimeout(() => {
                         window.location.href = "winner.html";
-                    }, 2000);
+                    }, 1000);
                 } else {
                     setTimeout(() => {
                         window.location.href = "loser.html";
-                    }, 2000);
+                    }, 1000);
                 }
             }
         }, 0);
