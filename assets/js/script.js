@@ -19,6 +19,7 @@ const plant = document.getElementById("plant");
 const soil = document.getElementById("soil");
 const userScore = document.getElementById("userScore");
 const comScore = document.getElementById("comScore");
+const commentText = document.getElementById("commentText");
 
 // Event Handling
 human.addEventListener("click", humanChoice);
@@ -38,14 +39,13 @@ function soilChoice() {
 
 //Computer Choice
 function computerPlay() {
-    for (let i = 0; i < 1; i++) {
-        comChoice = Math.floor(Math.random() * 3) + 1;
-        if (comChoice === 1) {
-            comOutput = "human";
-        } else if (comChoice === 2) {
-            comOutput = "plant";
-        } else comOutput = "soil";
-    }
+    comChoice = Math.floor(Math.random() * 3) + 1;
+    if (comChoice === 1) {
+        comOutput = "human";
+    } else if (comChoice === 2) {
+        comOutput = "plant";
+    } else comOutput = "soil";
+
     return comOutput;
 }
 
@@ -63,7 +63,6 @@ function playRound(userInput, computerSelection) {
         "human": "plant",
         "plant": "soil",
     };
-    console.log();
 
     if (playerOut == comOut) {
         const message = "You DREW! Player played: " + playerOut + ", Computer played: " + comOut;
@@ -86,7 +85,7 @@ function game(userInput) {
     if (playerCount !== 7 && comCount !== 7) {
         let computerSelection = computerPlay();
         let finaleOutput = playRound(userInput, computerSelection);
-        commentText.innerText = finaleOutput; // JS HINT SAYS THIS IS AN UNDEFINED VARIABLE - DO I NEED IT HERE? ASK ANDRE
+        commentText.innerText = finaleOutput;
         if (playWinCheck === true) playerCount++;
         else if (comWinCheck === true) comCount++;
 
@@ -94,18 +93,17 @@ function game(userInput) {
         comScore.innerText = comCount;
 
         // Final Output Loops
-        setTimeout(() => {
-            if (playerCount === 7 || comCount === 7) {
-                if (playerCount > comCount) {
-                    setTimeout(() => {
-                        window.location.href = "winner.html";
-                    }, 1000);
-                } else {
-                    setTimeout(() => {
-                        window.location.href = "loser.html";
-                    }, 1000);
-                }
+
+        if (playerCount === 7 || comCount === 7) {
+            if (playerCount > comCount) {
+                setTimeout(() => {
+                    window.location.href = "winner.html";
+                }, 1000);
+            } else {
+                setTimeout(() => {
+                    window.location.href = "loser.html";
+                }, 1000);
             }
-        }, 0);
+        }
     }
 }
