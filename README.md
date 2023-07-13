@@ -161,6 +161,8 @@ Photos used in the game and on all website pages were created by me using Canva.
 
 Font awesome icons were used from <https://fontawesome.com>
 
+Sticky Footer html/css from - <https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/>
+
 ## **Acknowledgements**
 
 My mentor Andre Aquilina for his support with javascript throughout my project.
