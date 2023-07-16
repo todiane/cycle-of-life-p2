@@ -138,6 +138,14 @@ h4 {
     color: rgb(10, 167, 10);
 }
 
+.rules {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 1.5em auto;
+    margin-bottom: 3em;
+}
+
 .rulePoint {
     font-size: 1.4rem;
 }

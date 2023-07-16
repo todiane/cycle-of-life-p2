@@ -132,6 +132,7 @@ The technologies used to create this game include
 - Canva to create images
 - Font Awesome
 
+
 ## **Unfixed Bugs**
 
 No unfixed bugs to report.
@@ -162,6 +163,8 @@ Photos used in the game and on all website pages were created by me using Canva.
 Font awesome icons were used from <https://fontawesome.com>
 
 Sticky Footer html/css from - <https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/>
+
+Emojis found at https://unicode.org/emoji/charts/full-emoji-list.html and  https://emojipedia.org/seedling/
 
 ## **Acknowledgements**
 
