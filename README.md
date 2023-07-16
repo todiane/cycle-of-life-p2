@@ -36,7 +36,7 @@ The deployed site can be found here <https://todiane.github.io/cycle-of-life-p2/
 
 ### **Header**
 
-![Image of game header](assets/images/cyclelife-header.webp)
+![Image of game header](assets/images/cyclelife-header.png)
 
 The header shows the name of the game and provides information on how to win the game.
 
@@ -69,7 +69,7 @@ As well as the main game area, the following webpages are also deployed at the e
 **_Winner Page_**
 This page displays if the player wins the game and provides an oportunity for them to play again or exit the game. The social media buttons are also present.
 
-![Image of winner page](assets/images/cyclelife-winner.webp)
+![Image of winner page](assets/images/cyclelife-winner.png)
 
 **_Lose Page_**
 
@@ -132,7 +132,6 @@ The technologies used to create this game include
 - Canva to create images
 - Font Awesome
 
-
 ## **Unfixed Bugs**
 
 No unfixed bugs to report.
@@ -163,7 +162,7 @@ Font awesome icons were used from <https://fontawesome.com>
 
 Sticky Footer html/css from - <https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/>
 
-Emojis found at https://unicode.org/emoji/charts/full-emoji-list.html and  https://emojipedia.org/seedling/
+Emojis found at https://unicode.org/emoji/charts/full-emoji-list.html and https://emojipedia.org/seedling/
 
 ## **Acknowledgements**
 

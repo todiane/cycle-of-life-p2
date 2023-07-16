@@ -73,13 +73,9 @@ function playRound(userInput, computerSelection) {
 
     const winOrder = {
         "soil": "human",
-        "soil": "weather",
         "human": "plant",
-        "human": "animal",
         "plant": "soil",
-        "plant": "weather",
         "weather": "animal",
-        "weather": "plant",
         "animal": "human"
     };
 
