@@ -230,7 +230,7 @@ h4 {
 
 /* MEDIA QUERY INSTRUCTIONS */
 
-@media (min-width: 824px) {
+@media (min-width: 800px) {
     .choice {
         flex-direction: row;
         justify-content: center;
