@@ -17,6 +17,8 @@ let comCount = 0;
 const human = document.getElementById("human");
 const plant = document.getElementById("plant");
 const soil = document.getElementById("soil");
+const animal = document.getElementById("animal");
+const weather = document.getElementById("weather");
 const userScore = document.getElementById("userScore");
 const comScore = document.getElementById("comScore");
 const commentText = document.getElementById("commentText");
@@ -25,6 +27,8 @@ const commentText = document.getElementById("commentText");
 human.addEventListener("click", humanChoice);
 plant.addEventListener("click", plantChoice);
 soil.addEventListener("click", soilChoice);
+animal.addEventListener("click", animalChoice);
+weather.addEventListener("click", weatherChoice);
 
 // Event Listener Function
 function humanChoice() {
@@ -36,15 +40,24 @@ function plantChoice() {
 function soilChoice() {
     game("soil");
 }
-
+function animalChoice() {
+    game("animal");
+}
+function weatherChoice() {
+    game("weather");
+}
 //Computer Choice
 function computerPlay() {
-    comChoice = Math.floor(Math.random() * 3) + 1;
+    comChoice = Math.floor(Math.random() * 5) + 1;
     if (comChoice === 1) {
         comOutput = "human";
     } else if (comChoice === 2) {
         comOutput = "plant";
-    } else comOutput = "soil";
+    } else if (comChoice === 3) {
+        comOutput = "soil";
+    } else if (comChoice === 4) {
+        comOutput = "animal";
+    } else comOutput = "weather";
 
     return comOutput;
 }
@@ -62,6 +75,8 @@ function playRound(userInput, computerSelection) {
         "soil": "human",
         "human": "plant",
         "plant": "soil",
+        "weather": "animal",
+        "animal": "human"
     };
 
     if (playerOut == comOut) {

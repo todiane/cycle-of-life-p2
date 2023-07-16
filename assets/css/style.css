@@ -10,7 +10,7 @@
 }
 
 main {
-    max-width: 48rem;
+    max-width: 55rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
