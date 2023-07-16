@@ -1,6 +1,6 @@
 # The Cycle Of Life Game
 
-The Cycle Of Life Game is a game created in the style of rock, paper, scissors. There are three options for the player to select - Human, Plant and Soil. The aim of the game is to select as many correct options as possible to beat the computer. A total of seven attempts are allowed before the game ends and decides the winner. The rules of the game are included on the index page and as well as winning or losing a player can also tie with the computer.
+The Cycle Of Life Game is a game created in the style of rock, paper, scissors, lizard, spock. There are five options for the player to select - Human, Plant, Soil, Animal and Weather. The aim of the game is to select as many correct options as possible to beat the computer. A total of seven attempts are allowed before the game ends and decides the winner. The rules of the game are included on the index page and as well as winning or losing a player can also tie with the computer.
 
 ![Image of complete page](assets/images/amiresponsive.webp/)
 
@@ -42,17 +42,17 @@ The header shows the name of the game and provides information on how to win the
 
 ### **Game Area**
 
-![Image of game area](assets/images/cyclelife-gamearea.webp)
+![Image of game area](assets/images/cyclelife-gamearea.png)
 
-The game area shows the score of the player and the computer and underneath that area is the game selection area where a player can select either Human, Plant or Soil. Instructions are provided on how to start the game so the player understands that the game only starts once they have made their first selection.
+The game area shows the score of the player and the computer and underneath that area is the game selection area where a player can select either Human, Plant, Soil, Animal or Weather. Instructions are provided on how to start the game so the player understands that the game only starts once they have made their first selection.
 
 Once a selection has been made the player is informed of the result and the selection the computer made.
 
-![Image of results](assets/images/cyclelife-result.webp)
+![Image of results](assets/images/cyclelife-result.png)
 
 ### **Instructions**
 
-![Image of instructions area](assets/images/cyclelife-rules.webp)
+![Image of instructions area](assets/images/cyclelife-rules.png)
 
 Under the game area are instructions/rules on which element wins or loses against the other.
 
@@ -91,7 +91,7 @@ This page displays if the player selects the NO button on either the winner or l
 
 - The link from the game to the winner and loser pages has been tested along with the buttons on each page to ensure they go to the correct place.
 
-- All links to external pages in the social media footer have been checked.
+- All links to external pages in the social media footer have been checked and open in a new window.
 
 - I tested that all parts of the game work including the score area and game selection area plus the additonal webpages and their buttons.
 
@@ -139,8 +139,7 @@ No unfixed bugs to report.
 
 ## **Additional Features**
 
-When there is more time I would like to add additional features to the human, plant, soil options so there are at least five different options to choose from rather than three.
-There is also an opportunity to have the winner and loser results appear on the index page, rather than on two separate pages.
+There is an opportunity to have the winner and loser results appear on the index page, rather than on two separate pages.
 
 ## **Deployment**
 
@@ -168,6 +167,6 @@ Emojis found at https://unicode.org/emoji/charts/full-emoji-list.html and  https
 
 ## **Acknowledgements**
 
-My mentor Andre Aquilina for his support with javascript throughout my project.
+My mentor Andre Aquilina for his support with javascript throughout my project. This game was originally in the style of rock, paper and scissors but my mentor encouraged me to add two additional items and work out how to include them using less code. I originally had a full if/else statement for my game options but knew it was too long and with his support (by asking me what alternatives I thought could be used) I thought about an array but settled on a conditional statement.
 
 Members of Code Institute Slack group for their help and advice.
