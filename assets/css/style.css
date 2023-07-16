@@ -112,7 +112,6 @@ h4 {
     padding: 0.5rem;
     cursor: pointer;
     font-size: 1.3rem;
-
 }
 
 
@@ -207,7 +206,7 @@ h4 {
 /*Buttons on winner, loser and thank you pages */
 
 .btn {
-    width: 180px;
+    width: 150px;
     padding: 0.8em;
     border: 2px solid none;
     border-radius: 5px;
