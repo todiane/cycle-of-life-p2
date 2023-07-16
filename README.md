@@ -124,13 +124,14 @@ The site was run through the DevTools Lighthouse section and given a 98% score f
 
 The technologies used to create this game include
 
-- HTML5
-- CSS
-- Javascript
-- Codeanywhere
-- GitHub
 - Canva to create images
+- Codeanywhere
+- CSS
+- HTML5
+- Javascript
 - Font Awesome
+- GitHub
+- Google Fonts
 
 ## **Unfixed Bugs**
 
