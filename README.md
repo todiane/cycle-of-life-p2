@@ -158,11 +158,11 @@ The Cycle of Life footer structure has been created using html and css code elem
 
 Photos used in the game and on all website pages were created by me using Canva.
 
+Emojis found at https://unicode.org/emoji/charts/full-emoji-list.html and https://emojipedia.org/seedling/
+
 Font awesome icons were used from <https://fontawesome.com>
 
 Sticky Footer html/css from - <https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/>
-
-Emojis found at https://unicode.org/emoji/charts/full-emoji-list.html and https://emojipedia.org/seedling/
 
 ## **Acknowledgements**
 
