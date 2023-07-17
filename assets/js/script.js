@@ -1,4 +1,4 @@
-// JS SCRIPT for Human, Plant and Soil Game
+// JS SCRIPT for Cycle of Life Game
 
 /*I made this game up and it is based on the rock, paper, scissors game - code inspired by Geeks for Geeks 
 https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/ 
@@ -74,6 +74,7 @@ function playRound(userInput, computerSelection) {
     const winOrder = {
         "soil": "human",
         "human": "plant",
+        "human": "animal",
         "plant": "soil",
         "weather": "animal",
         "animal": "human"

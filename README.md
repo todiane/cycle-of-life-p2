@@ -2,7 +2,7 @@
 
 The Cycle Of Life Game is a game created in the style of rock, paper, scissors, lizard, spock. There are five options for the player to select - Human, Plant, Soil, Animal and Weather. The aim of the game is to select as many correct options as possible to beat the computer. A total of seven attempts are allowed before the game ends and decides the winner. The rules of the game are included on the index page and as well as winning or losing a player can also tie with the computer.
 
-![Image of complete page](assets/images/amiresponsive.webp/)
+![Image of complete page](assets/images/cyclelife-rm-header.webp/)
 
 The deployed site can be found here <https://todiane.github.io/cycle-of-life-p2/>
 
