@@ -46,7 +46,7 @@ The header shows the name of the game and provides information on how to win the
 
 The game area shows the score of the player and the computer and underneath that area is the game selection area where a player can select either Human, Plant, Soil, Animal or Weather. Instructions are provided on how to start the game so the player understands that the game only starts once they have made their first selection.
 
-Once a selection has been made the player is informed of the result and the selection the computer made.
+Once a selection has been made the player is informed of the result (win or lose) and the selection the computer made.
 
 ![Image of results](assets/images/cyclelife-result.png)
 
@@ -87,7 +87,7 @@ This page displays if the player selects the NO button on either the winner or l
 
 - The website has been tested to work in different browers including Chrome, Firefox and Edge.
 
-- The @media code has been added and tested to ensure the game keeps its structure at the lowest screen size of 320 x 480 px.
+- The @media code has been added and tested to ensure the game keeps its structure at the lowest screen size of 320 px.
 
 - The link from the game to the winner and loser pages has been tested along with the buttons on each page to ensure they go to the correct place.
 
