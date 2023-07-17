@@ -14,10 +14,9 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     font-family: "Roboto", sans-serif;
     background-color: #fafafa;
-    padding: 4rem;
+    padding: 2rem;
 }
 
 body {
@@ -130,6 +129,16 @@ h4 {
     height: 50px;
 }
 
+#imgchoice3 {
+    width: 50px;
+    height: 50px;
+}
+
+#imgchoice4 {
+    width: 50px;
+    height: 50px;
+}
+
 #commentText {
     margin: 0 auto;
     font-size: 1.5rem;
@@ -228,49 +237,9 @@ h4 {
     width: 250px;
 }
 
-/* ALL MEDIA QUERY INSTRUCTIONS */
+/* MEDIA QUERY INSTRUCTIONS */
 
-@media (min-width: 800px) {
-    .choice {
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .choiceImg {
-        margin-left: 20px;
-    }
-
-    .comSection,
-    .userSection {
-        font-size: 1.3rem;
-    }
-
-    .action {
-        width: 100%;
-    }
-
-    .action button {
-        margin: 0 auto;
-        width: 100%;
-        font-size: 1.4rem;
-        margin-right: 40px;
-    }
-
-    .winner h3 {
-        font-size: 1.4rem;
-    }
-
-    #winText {
-        font-size: 2rem;
-    }
-
-    .mediumText {
-        font-size: 1.4rem;
-    }
-}
-
-@media (min-width: 624px) {
+@media (min-width: 957px) {
     .action {
         margin-top: 20px;
         flex-direction: row;
@@ -288,9 +257,8 @@ h4 {
 
 }
 
-@media (min-width: 379px) {
+    @media (min-width: 379px) {
     .choiceImg {
         width: 70%;
     }
-
 }
