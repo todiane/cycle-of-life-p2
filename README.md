@@ -124,13 +124,14 @@ The site was run through the DevTools Lighthouse section and given a 98% score f
 
 The technologies used to create this game include
 
-- HTML5
-- CSS
-- Javascript
-- Codeanywhere
-- GitHub
 - Canva to create images
+- Codeanywhere
+- CSS
 - Font Awesome
+- GitHub
+- Google Fonts
+- HTML5
+- JavaScript
 
 ## **Unfixed Bugs**
 
@@ -160,7 +161,7 @@ Photos used in the game and on all website pages were created by me using Canva.
 
 Emojis found at https://unicode.org/emoji/charts/full-emoji-list.html and https://emojipedia.org/seedling/
 
-Font awesome icons were used from <https://fontawesome.com>
+
 
 Sticky Footer html/css from - <https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/>
 
