@@ -2,7 +2,7 @@
 
 The Cycle Of Life Game is a game created in the style of rock, paper, scissors, lizard, spock. There are five options for the player to select - Human, Plant, Soil, Animal and Weather. The aim of the game is to select as many correct options as possible to beat the computer. A total of seven attempts are allowed before the game ends and decides the winner. The rules of the game are included on the index page and as well as winning or losing a player can also tie with the computer.
 
-![Image of complete page](assets/images/amiresponsive.webp/)
+![Image of complete page](assets/images/cyclelife-rm-header.webp/)
 
 The deployed site can be found here <https://todiane.github.io/cycle-of-life-p2/>
 
@@ -124,13 +124,14 @@ The site was run through the DevTools Lighthouse section and given a 98% score f
 
 The technologies used to create this game include
 
-- HTML5
-- CSS
-- Javascript
-- Codeanywhere
-- GitHub
 - Canva to create images
+- Codeanywhere
+- CSS
 - Font Awesome
+- GitHub
+- Google Fonts
+- HTML5
+- JavaScript
 
 ## **Unfixed Bugs**
 
@@ -158,11 +159,11 @@ The Cycle of Life footer structure has been created using html and css code elem
 
 Photos used in the game and on all website pages were created by me using Canva.
 
-Font awesome icons were used from <https://fontawesome.com>
+Emojis found at https://unicode.org/emoji/charts/full-emoji-list.html and https://emojipedia.org/seedling/
+
+
 
 Sticky Footer html/css from - <https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/>
-
-Emojis found at https://unicode.org/emoji/charts/full-emoji-list.html and https://emojipedia.org/seedling/
 
 ## **Acknowledgements**
 
