@@ -228,7 +228,7 @@ h4 {
     width: 250px;
 }
 
-/* MEDIA QUERY INSTRUCTIONS */
+/* ALL MEDIA QUERY INSTRUCTIONS */
 
 @media (min-width: 800px) {
     .choice {
