@@ -16,6 +16,12 @@ The deployed site can be found here <https://todiane.github.io/cycle-of-life-p2/
   - [Footer Area](#footer-area)
 
 - [Website Pages](#website-pages)
+
+  - [Winner Page](#winner-page)
+  - [Lose Page](#lose-page)
+  - [Thank You Page](#thank-you-page)
+  - [404 Error Page](#error-page)
+
 - [Testing](#testing)
 
 - [Validator Testing](#validator-testing)
@@ -67,6 +73,7 @@ Under the game instructions area and outside of the main game area is the footer
 As well as the main game area, the following webpages are also deployed at the end of the game
 
 **_Winner Page_**
+
 This page displays if the player wins the game and provides an oportunity for them to play again or exit the game. The social media buttons are also present.
 
 ![Image of winner page](assets/images/cyclelife-winner.png)
@@ -82,6 +89,12 @@ This page displays if the player loses the game and provides an oportunity for t
 This page displays if the player selects the NO button on either the winner or lose pages. It also provides a final opportunity to play the game again. The social media buttons are also present.
 
 ![Image of thanks page](assets/images/cyclelife-thanks.webp)
+
+**_Error Page_**
+
+This 404 error page has been created to display if the player selects an invalid page. The social media buttons are also present.
+
+![Image of 404 Error page](assets/images/error-rm-image.png)
 
 ## **Testing**
 
@@ -160,8 +173,6 @@ The Cycle of Life footer structure has been created using html and css code elem
 Photos used in the game and on all website pages were created by me using Canva.
 
 Emojis found at https://unicode.org/emoji/charts/full-emoji-list.html and https://emojipedia.org/seedling/
-
-
 
 Sticky Footer html/css from - <https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/>
 
