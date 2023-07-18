@@ -17,16 +17,11 @@ The deployed site can be found here <https://todiane.github.io/cycle-of-life-p2/
 
 - [Website Pages](#website-pages)
 
-  - [Winner Page](#winner-page)
-  - [Lose Page](#lose-page)
-  - [Thank You Page](#thank-you-page)
-  - [404 Error Page](#error-page)
-
 - [Testing](#testing)
 
 - [Validator Testing](#validator-testing)
 
-- [Technologies Used](#technologies-used)
+- [Technologies Used](#technologies-used) 
 
 - [Unfixed Bugs](#unfixed-bugs)
 
