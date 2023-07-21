@@ -4,11 +4,11 @@ The Cycle Of Life Game is a game created in the style of rock, paper, scissors, 
 
 ![Image of complete page](assets/images/cyclelife-rm-header.webp/)
 
-The deployed site can be found here <https://todiane.github.io/cycle-of-life-p2/>
+The deployed site can be found [here](https://todiane.github.io/cycle-of-life-p2/)
 
 # Table Of Contents
 
-- [Purpose and Goals](#purpose)
+- [Purpose](#purpose)
 
 - [Project Goals](#project-goals)
 
@@ -95,7 +95,7 @@ Under the game instructions area and outside of the main game area is the footer
 
 As well as the main game area, the following webpages are also deployed at the end of the game
 
-**_Winner Page_**
+**_Win Page_**
 
 This page displays if the player wins the game and provides an oportunity for them to play again or exit the game. The social media buttons are also present.
 
@@ -135,11 +135,13 @@ A favicon appears in the users tabbed browser
 
 - The link from the game to the winner and loser pages has been tested along with the buttons on each page to ensure they go to the correct place.
 
+- The link to the thank you page from the win and lose pages has been tested along with the button to return to the game that is available on the thank you page.
+
 - All links to external pages in the social media footer have been checked and open in a new window.
 
 - I tested that all parts of the game work including the score area and game selection area plus the additonal webpages and their buttons.
 
-- I tested that the instructions were easy to understand.
+- I tested that the instructions were easy to understand for a 10 year old, by asking my grand daughter.
 
 ## **Validator Testing**
 
@@ -150,6 +152,7 @@ Two unused variables were detected and removed.
 
 **_HTML_**
 The HTML code was run through W3C Validator and found duplicate IDs for game images, id="imgChoice" on line 34 of index page. This was updated to include imgChoice1 and imgChoice2 plus the CSS file was updated to include the same image size instructions. There were also a couple of stray end divs to remove.
+
 Once completed no other errors were found when the code was entered into the validator
 ![W3C Validator](assets/images/cyclelife-htmlvalidate.webp)
 
@@ -187,7 +190,7 @@ No unfixed bugs to report.
 
 There is an opportunity to have the winner and loser results appear on the index page, rather than on two separate pages.
 
-The JavaScript code can be re-written so the computer can be beaten with five attempts and this challenge can be offered as a “beat the computer” advanced challenge.
+The JavaScript code can be re-written so the computer can be beaten within five attempts and this challenge can be offered as a “beat the computer” advanced challenge.
 
 ## **Deployment**
 
