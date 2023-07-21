@@ -183,6 +183,33 @@ h4 {
     margin: 0.5rem;
 }
 
+/*Buttons on winner, loser and thank you pages */
+
+.btn {
+    width: 150px;
+    padding: 0.8em;
+    border: 2px solid none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    background-color: green;
+}
+
+.action button {
+    font-size: 1.6rem;
+}
+
+/*Images on winner, loser and thank you pages */
+
+#img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 /* social networks footer */
 
 .social-networks {
@@ -212,32 +239,9 @@ h4 {
     flex: 1;
 }
 
-/*Buttons on winner, loser and thank you pages */
 
-.btn {
-    width: 150px;
-    padding: 0.8em;
-    border: 2px solid none;
-    border-radius: 5px;
-    margin: 0 auto;
-}
 
-.btn:hover {
-    background-color: green;
-}
 
-.action button {
-    font-size: 1.6rem;
-}
-
-/*Images on winner, loser and thank you pages */
-
-#img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
 
 /*404 Error Page*/
 

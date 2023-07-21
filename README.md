@@ -8,6 +8,10 @@ The deployed site can be found here <https://todiane.github.io/cycle-of-life-p2/
 
 # Table Of Contents
 
+- [Purpose and Goals](#purpose)
+
+- [Project Goals](#project-goals)
+
 - [Features](#features)
 
   - [Header](#header)
@@ -32,6 +36,30 @@ The deployed site can be found here <https://todiane.github.io/cycle-of-life-p2/
 - [Credits](#credits)
 
 - [Acknowledgements](#acknowledgements)
+
+
+## Purpose
+
+The purpose of The Cycle of Life game is to provide fun and entertainment to the user as they try to beat the computer. **This game suits a target audience of anyone aged 10 and up** who enjoys playing online games.
+As a first time user the goal is to provide an opportunity for the player to actively engage with the site's data by initiating and controlling actions which displays feedback.
+
+## Project Goals
+
+- To build an interactive front-end website, using html5, CSS and JavaScript, that responds to a users’ actions.
+
+- To create a game in line with user experience (UX and UI) teachings to ensure a game is provided that is easy to navigate.
+
+- Provide clear instructions on how to play, start playing and exit the game.
+
+- Provide ongoing and clear feedback on who is winning and why either the computer or player won.
+
+- Provide up to seven chances for a player to win against the computer.
+
+- Provide options and clear instructions on how to continue playing (or not) once the game is over.
+
+- Have a seamless route from the game to the win, lose and thank you page and back again.
+
+- Issue a 404 error warning if a player selects a page outside of the game.
 
 ## Features
 
@@ -91,6 +119,14 @@ This 404 error page has been created to display if the player selects an invalid
 
 ![Image of 404 Error page](assets/images/error-rm-image.png)
 
+
+**Favicon**
+
+A favicon appears in the users tabbed browser
+
+![Image of favicon](assets/images/cyclelife-rm-favicon.png)
+
+
 ## **Testing**
 
 - The website has been tested to work in different browers including Chrome, Firefox and Edge.
@@ -130,16 +166,18 @@ The site was run through the DevTools Lighthouse section and given a 98% score f
 
 ## **Technologies Used**
 
-The technologies used to create this game include
+The technologies and programs used to create this game include:
+
+- CSS3
+- HTML5
+- JavaScript
 
 - Canva to create images
 - Codeanywhere
-- CSS
 - Font Awesome
 - GitHub
 - Google Fonts
-- HTML5
-- JavaScript
+
 
 ## **Unfixed Bugs**
 
@@ -148,6 +186,8 @@ No unfixed bugs to report.
 ## **Additional Features**
 
 There is an opportunity to have the winner and loser results appear on the index page, rather than on two separate pages.
+
+The JavaScript code can be re-written so the computer can be beaten with five attempts and this challenge can be offered as a “beat the computer” advanced challenge.
 
 ## **Deployment**
 
