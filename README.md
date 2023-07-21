@@ -73,9 +73,9 @@ The header shows the name of the game and provides information on how to win the
 
 ![Image of game area](assets/images/cyclelife-gamearea.png)
 
-The game area shows the score of the player and the computer and underneath that area is the game selection area where a player can select either Human, Plant, Soil, Animal or Weather. Instructions are provided on how to start the game so the player understands that the game only starts once they have made their first selection.
+The game area shows the score of the player and the computer and underneath that area is the game selection area where a player can select either Human, Plant, Soil, Animal or Weather. Instructions are provided on how to start the game so the player understands that the game only starts once they have made their first selection. This provides the user with clear instructions on how to begin.
 
-Once a selection has been made the player is informed of the result (win or lose) and the selection the computer made.
+Once a selection has been made the player is informed of the result (win or lose) and the selection the computer made, ensuring the user is aware of what is happening at all times.
 
 ![Image of results](assets/images/cyclelife-result.png)
 
@@ -83,13 +83,13 @@ Once a selection has been made the player is informed of the result (win or lose
 
 ![Image of instructions area](assets/images/cyclelife-rules.png)
 
-Under the game area are instructions/rules on which element wins or loses against the other.
+Under the game area are instructions/rules on which element wins or loses against the other. This ensures the user will be clear about how to play.
 
 ### **Footer Area**
 
 ![Image of footer area](assets/images/cyclelife-footer.webp)
 
-Under the game instructions area and outside of the main game area is the footer which includes links to social media networks.
+Under the game instructions area and outside of the main game area is the footer which includes links to social media networks, giving the user an opportunity to connect with any social media presence that is available.
 
 ## **Website Pages**
 
@@ -97,32 +97,32 @@ As well as the main game area, the following webpages are also deployed at the e
 
 **_Win Page_**
 
-This page displays if the player wins the game and provides an oportunity for them to play again or exit the game. The social media buttons are also present.
+This page displays if the player wins the game and provides an oportunity for them to play again or exit the game. The social media buttons are also present. The user is informed that they have won and that there is an opportunity to play again or exit the game.
 
 ![Image of winner page](assets/images/cyclelife-winner.png)
 
 **_Lose Page_**
 
-This page displays if the player loses the game and provides an oportunity for them to play again or exit the game. The social media buttons are also present.
+This page displays if the player loses the game and provides an oportunity for them to play again or exit the game. The social media buttons are also present. The user is informed that they have lost and that there is an opportunity to play again or exit the game.
 
 ![Image of you lose page](assets/images/cyclelife-lose.webp)
 
 **_Thank You Page_**
 
-This page displays if the player selects the NO button on either the winner or lose pages. It also provides a final opportunity to play the game again. The social media buttons are also present.
+This page displays if the player selects the NO button on either the winner or lose pages. It also provides a final opportunity to play the game again. The social media buttons are also present. This page makes it clear that the user is no longer playing the game. It also offers the opportunity for them to change their mind and play again.
 
 ![Image of thanks page](assets/images/cyclelife-thanks.webp)
 
 **_Error Page_**
 
-This 404 error page has been created to display if the player selects an invalid page. The social media buttons are also present.
+This 404 error page has been created to display if the player selects an invalid page. The social media buttons are also present. The user is presented with a button that will return them to the main game area.
 
 ![Image of 404 Error page](assets/images/error-rm-image.png)
 
 
 **Favicon**
 
-A favicon appears in the users tabbed browser
+A favicon appears in the users tabbed browser. This lets any user with multiple tabs open easily identify where the game is so they can return to it.
 
 ![Image of favicon](assets/images/cyclelife-rm-favicon.png)
 
