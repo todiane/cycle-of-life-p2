@@ -4,7 +4,7 @@ The Cycle Of Life Game is a game created in the style of rock, paper, scissors, 
 
 ![Image of complete page](assets/images/cyclelife-rm-header.webp/)
 
-The deployed site can be found [here](https://todiane.github.io/cycle-of-life-p2/)
+The deployed site can be found [here](https://todiane.github.io/cycle-of-life-p2/) - press Ctrl (or Cmd) + enter to open in a new window
 
 # Table Of Contents
 
@@ -47,7 +47,7 @@ As a first time user the goal is to provide an opportunity for the player to act
 
 - To build an interactive front-end website, using html5, CSS and JavaScript, that responds to a users’ actions.
 
-- To create a game in line with user experience (UX and UI) teachings to ensure a game is provided that is easy to navigate.
+- To create a game in line with user experience (UX and UI) teachings and ensure the game provided is easy to navigate.
 
 - Provide clear instructions on how to play, start playing and exit the game.
 
@@ -77,23 +77,25 @@ The game area shows the score of the player and the computer and underneath that
 
 Once a selection has been made the player is informed of the result (win or lose) and the selection the computer made, ensuring the user is aware of what is happening at all times.
 
-![Image of results](assets/images/cyclelife-result.png)
+![Image of results](assets/images/cyclelife-rm-result.png)
 
 ### **Instructions**
 
-![Image of instructions area](assets/images/cyclelife-rules.png)
+![Image of instructions area](assets/images/cyclelife-rm-rules.png)
 
 Under the game area are instructions/rules on which element wins or loses against the other. This ensures the user will be clear about how to play.
+
+There are also instructions on how to restart the game before a winner is selected using the refresh button.
 
 ### **Footer Area**
 
 ![Image of footer area](assets/images/cyclelife-footer.webp)
 
-Under the game instructions area and outside of the main game area is the footer which includes links to social media networks, giving the user an opportunity to connect with any social media presence that is available.
+Under the game instructions area and outside of the main game area is the footer which includes links to social media networks.
 
 ## **Website Pages**
 
-As well as the main game area, the following webpages are also deployed at the end of the game
+As well as the main game area, the following webpages are also deployed at the end of the game:
 
 **_Win Page_**
 
@@ -131,7 +133,7 @@ A favicon appears in the users tabbed browser. This lets any user with multiple 
 
 - The website has been tested to work in different browers including Chrome, Firefox and Edge.
 
-- The @media code has been added and tested to ensure the game keeps its structure at the lowest screen size of 320 px.
+- The @media code has been added and tested to ensure the game keeps its structure at the lowest screen size.
 
 - The link from the game to the winner and loser pages has been tested along with the buttons on each page to ensure they go to the correct place.
 
@@ -213,6 +215,8 @@ Photos used in the game and on all website pages were created by me using Canva.
 Emojis found at https://unicode.org/emoji/charts/full-emoji-list.html and https://emojipedia.org/seedling/
 
 Sticky Footer html/css from - <https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/>
+
+Free Code Camp - used code to allow for capitalization of word in game area - https://www.freecodecamp.org/news/how-to-capitalize-words-in-javascript 
 
 ## **Acknowledgements**
 

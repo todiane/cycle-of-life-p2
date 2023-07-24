@@ -62,7 +62,7 @@ function computerPlay() {
     return comOutput;
 }
 
-//to capitalize word in game area
+//to capitalize word in game area - help from freecode camp
 
 function capitalizeWord(word) {
 
