@@ -4,7 +4,7 @@ The Cycle Of Life Game is a game created in the style of rock, paper, scissors, 
 
 ![Image of complete page](assets/images/cyclelife-rm-header.webp/)
 
-The deployed site can be found [here](https://todiane.github.io/cycle-of-life-p2/) - press Ctrl (or Cmd) + enter to open in a new window
+The deployed site can be found [here](https://todiane.github.io/cycle-of-life-p2/) - press Ctrl (or Cmd) + mouse click to open in a new window
 
 # Table Of Contents
 
@@ -25,7 +25,7 @@ The deployed site can be found [here](https://todiane.github.io/cycle-of-life-p2
 
 - [Validator Testing](#validator-testing)
 
-- [Technologies Used](#technologies-used) 
+- [Technologies Used](#technologies-used)
 
 - [Unfixed Bugs](#unfixed-bugs)
 
@@ -36,7 +36,6 @@ The deployed site can be found [here](https://todiane.github.io/cycle-of-life-p2
 - [Credits](#credits)
 
 - [Acknowledgements](#acknowledgements)
-
 
 ## Purpose
 
@@ -121,13 +120,11 @@ This 404 error page has been created to display if the player selects an invalid
 
 ![Image of 404 Error page](assets/images/error-rm-image.png)
 
-
 **Favicon**
 
 A favicon appears in the users tabbed browser. This lets any user with multiple tabs open easily identify where the game is so they can return to it.
 
 ![Image of favicon](assets/images/cyclelife-rm-favicon.png)
-
 
 ## **Testing**
 
@@ -183,7 +180,6 @@ The technologies and programs used to create this game include:
 - GitHub
 - Google Fonts
 
-
 ## **Unfixed Bugs**
 
 No unfixed bugs to report.
@@ -216,7 +212,7 @@ Emojis found at https://unicode.org/emoji/charts/full-emoji-list.html and https:
 
 Sticky Footer html/css from - <https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/>
 
-Free Code Camp - used code to allow for capitalization of word in game area - https://www.freecodecamp.org/news/how-to-capitalize-words-in-javascript 
+Free Code Camp - used code to allow for capitalization of word in game area - https://www.freecodecamp.org/news/how-to-capitalize-words-in-javascript
 
 ## **Acknowledgements**
 
