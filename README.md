@@ -204,6 +204,10 @@ The live link for this game can be found here - <https://todiane.github.io/cycle
 
 ## **Credits**
 
+I made this game up and it is based on the rock, paper, scissors game - code inspired by Geeks for Geeks 
+https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/ 
+and https://youtu.be/RwFeg0cEZvQ 
+
 The Cycle of Life footer structure has been created using html and css code elements from the Code Institute Love Running website. The Love Running three page website has been recreated for this project. <https://code-institute-org.github.io/love-running-2.0/index.html>
 
 Photos used in the game and on all website pages were created by me using Canva.
