@@ -62,6 +62,18 @@ function computerPlay() {
     return comOutput;
 }
 
+//to capitalize word in game area
+
+function capitalizeWord(word) {
+
+    const firstLetter = word.charAt(0);
+    const firstLetterCap = firstLetter.toUpperCase();
+    const remainingLetters = word.slice(1);
+    const capitalizedWord = firstLetterCap + remainingLetters;
+    return capitalizedWord;
+}
+
+
 function playRound(userInput, computerSelection) {
     // Resetter to default False
     playWinCheck = false;
@@ -72,30 +84,30 @@ function playRound(userInput, computerSelection) {
     let comOut = computerSelection;
 
     const winOrder = {
-        "soil": "human",
-        "human": "plant",
-        "human": "animal",
-        "plant": "soil",
-        "weather": "animal",
-        "animal": "human"
+        "soil": ["human", "weather"],
+        "human": ["plant", "animal"],
+        "plant": ["soil", "weather"],
+        "weather": ["animal", "human"],
+        "animal": ["plant", "soil"]
     };
 
     if (playerOut == comOut) {
-        const message = "You DREW! Player played: " + playerOut + ", Computer played: " + comOut;
+        const message = "You DREW! Player played: " + capitalizeWord(playerOut) + ", Computer played: " + capitalizeWord(comOut);
         return message;
     }
 
 
-    if (winOrder[playerOut] == comOut) {
-        playWin = "You WIN!! Player played: " + playerOut + ", Computer played: " + comOut;
+    if (winOrder[playerOut].includes(comOut)) {
+        playWin = "You WIN!! Player played: " + capitalizeWord(playerOut) + ", Computer played: " + capitalizeWord(comOut);
         playWinCheck = true;
         return playWin;
     }
 
-    const message = "You LOST!! Player played: " + playerOut + ", Computer played: " + comOut;
+    const message = "You LOST!! Player played: " + capitalizeWord(playerOut) + ", Computer played: " + capitalizeWord(comOut);
     comWinCheck = true;
     return message;
 }
+
 // Input Level
 function game(userInput) {
     if (playerCount !== 7 && comCount !== 7) {
