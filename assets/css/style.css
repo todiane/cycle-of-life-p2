@@ -186,11 +186,16 @@ h4 {
 /*Buttons on winner, loser and thank you pages */
 
 .btn {
-    width: 150px;
-    padding: 0.8em;
-    border: 2px solid none;
-    border-radius: 5px;
-    margin: 0 auto;
+    background-color: #5a5a5a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 .btn:hover {
