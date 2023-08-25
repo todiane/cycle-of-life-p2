@@ -8,34 +8,27 @@ The deployed site can be found [here](https://todiane.github.io/cycle-of-life-p2
 
 # Table Of Contents
 
-- [Purpose](#purpose)
-
-- [Project Goals](#project-goals)
-
-- [Features](#features)
-
-  - [Header](#header)
-  - [Game Area](#game-area)
-  - [Instructions](#instructions)
-  - [Footer Area](#footer-area)
-
-- [Website Pages](#website-pages)
-
-- [Testing](#testing)
-
-- [Validator Testing](#validator-testing)
-
-- [Technologies Used](#technologies-used)
-
-- [Unfixed Bugs](#unfixed-bugs)
-
-- [Additional Features](#additional-features)
-
-- [Deployment ](#deployment)
-
-- [Credits](#credits)
-
-- [Acknowledgements](#acknowledgements)
+- [The Cycle Of Life Game](#the-cycle-of-life-game)
+- [Table Of Contents](#table-of-contents)
+  - [Purpose](#purpose)
+  - [Project Goals](#project-goals)
+  - [Features](#features)
+    - [**Header**](#header)
+    - [**Game Area**](#game-area)
+    - [**Instructions**](#instructions)
+    - [**Footer Area**](#footer-area)
+  - [**Website Pages**](#website-pages)
+  - [**Favicon**](#favicon)
+  - [**Testing**](#testing)
+  - [Testing Browsers](#testing-browsers)
+  - [**Validator Testing**](#validator-testing)
+  - [**Technologies Used**](#technologies-used)
+  - [**Unfixed Bugs**](#unfixed-bugs)
+  - [**Additional Features**](#additional-features)
+  - [**Deployment**](#deployment)
+  - [**Credits**](#credits)
+  - [**Acknowledgements**](#acknowledgements)
+  - [Updates](#updates)
 
 ## Purpose
 
@@ -120,7 +113,7 @@ This 404 error page has been created to display if the player selects an invalid
 
 ![Image of 404 Error page](assets/images/error-rm-image.png)
 
-**Favicon**
+## **Favicon**
 
 A favicon appears in the users tabbed browser. This lets any user with multiple tabs open easily identify where the game is so they can return to it.
 
@@ -128,25 +121,41 @@ A favicon appears in the users tabbed browser. This lets any user with multiple 
 
 ## **Testing**
 
-- The website has been tested to work in different browers including Chrome, Firefox and Edge.
+The game was tested by family and friends to ensure it worked correctly and the instructions were clear.
 
-- The @media code has been added and tested to ensure the game keeps its structure at the lowest screen size.
+The following tests were carried out to ensure the game is working correctly
 
-- The link from the game to the winner and loser pages has been tested along with the buttons on each page to ensure they go to the correct place.
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Instructions | User is given clear instructions | Remain on screen | Passed |
+| Score Buttons | Increase with each win| Counts up to 7| Passed |
+| Start game | User must select to activate | Game starts | Passed |
+| Winner Page| Game over and redirects to page | Winner page is shown| Works as expected |
+| Lose Page | Game over and redirects to page | Lose page is shown | Works as expected |
+| Play Again | User invited to pay again on winner and lose pages | Click YES to return to game and NO to go to thanks.html page | Works as expected |
+| Thanks Page | User selects NO to play again | Thank you page appears | Works as expected |
+| Exit or Play Again | User ready to leave | Page provides link to game in case they changed their mind | Works as expected |
+| Social Media Links | Links to social media | Opens in a new page | Works as expected |
+| @media code | Ensure game is responsive | Changes structure of page depending on size | Passed |
 
-- The link to the thank you page from the win and lose pages has been tested along with the button to return to the game that is available on the thank you page.
+I tested that all parts of the game work including the score area and game selection area plus the additonal webpages and their buttons.
 
-- All links to external pages in the social media footer have been checked and open in a new window.
+## Testing Browsers
 
-- I tested that all parts of the game work including the score area and game selection area plus the additonal webpages and their buttons.
+The game was tested in the following browsers (based on my own testing and those of people who tested the game):
 
-- I tested that the instructions were easy to understand for a 10 year old, by asking my grand daughter.
+- Chrome
+- Edge
+- Firefox
+- Safari
+
+The game worked without issues in the above browsers.
 
 ## **Validator Testing**
 
 **_Javascript_**
 
-The Javascript was run through JS Hint Javascript Validator - https://jshint.com/
+The Javascript was run through JS Hint Javascript Validator - [HERE](https://jshint.com/)
 Two unused variables were detected and removed.
 
 **_HTML_**
@@ -204,22 +213,28 @@ The live link for this game can be found here - <https://todiane.github.io/cycle
 
 ## **Credits**
 
-I made this game up and it is based on the rock, paper, scissors game - code inspired by Geeks for Geeks 
-https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/ 
-and https://youtu.be/RwFeg0cEZvQ 
+I made this game up and it is based on the rock, paper, scissors game - code inspired by [Geeks for Geeks](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/) and [YouTube Video](https://youtu.be/RwFeg0cEZvQ)
 
 The Cycle of Life footer structure has been created using html and css code elements from the Code Institute Love Running website. The Love Running three page website has been recreated for this project. <https://code-institute-org.github.io/love-running-2.0/index.html>
 
 Photos used in the game and on all website pages were created by me using Canva.
 
-Emojis found at https://unicode.org/emoji/charts/full-emoji-list.html and https://emojipedia.org/seedling/
+Emojis found [here](https://unicode.org/emoji/charts/full-emoji-list.html) and at [emjopedia](https://emojipedia.org/seedling/)
 
-Sticky Footer html/css from - <https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/>
+Sticky Footer html/css from [here](https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer)
 
-Free Code Camp - used code to allow for capitalization of word in game area - https://www.freecodecamp.org/news/how-to-capitalize-words-in-javascript
+Free Code Camp - used code to allow for capitalization of word in game area - [instructions here](https://www.freecodecamp.org/news/how-to-capitalize-words-in-javascript)
 
 ## **Acknowledgements**
 
 My mentor Andre Aquilina for his support with javascript throughout my project. This game was originally in the style of rock, paper and scissors but my mentor encouraged me to add two additional items and work out how to include them using less code. I originally had a full if/else statement for my game options but knew it was too long and with his support (by asking me what alternatives I thought could be used) I thought about an array but settled on a conditional statement.
 
 Members of Code Institute Slack group for their help and advice.
+
+## Updates
+
+After receiving my assessment feedback I completed the following updates on 25th August 2023:
+
+- Updated the code in the winner, loser and thanks.html pages so that it was html compliant.
+- Updated the testing section of the README.
+- Removed all "problems" highlighted in the codeanywhere IDE
